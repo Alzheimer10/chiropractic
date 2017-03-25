@@ -4,10 +4,11 @@
               <div class="swiper-caption">
                 <div class="swiper-slide-caption">
                   <div class="shell bg-dark section-41 section-sm-98 section-md-bottom-167">
-                    <h2>Welcome to Chiropractic<br class="veil reveal-md-block"> spinal healthcare
+                    <h2>{!! trans('header.main.index.slide1.title') !!}<br class="veil reveal-md-block">
+                    {!! trans('header.main.index.slide1.subtitle') !!}
                     </h2>
-                    <h5 class="veil reveal-md-block">We welcome you to a warm environment, with friendly staff members<br class="veil reveal-md-block"> who wish to serve our patients in the best way possible.
-                    </h5><a href="make-an-appointment.html" class="btn btn-ellipse btn-java offset-top-24">make an appointment</a>
+                    <h5 class="veil reveal-md-block">{!! trans('header.main.index.slide1.text1') !!}<br class="veil reveal-md-block">{!! trans('header.main.index.slide1.text2') !!}
+                    </h5><a href="make-an-appointment.html" class="btn btn-ellipse btn-java offset-top-24">{!! trans('header.main.index.slide1.appointment') !!}</a>
                   </div>
                 </div>
               </div>
@@ -16,10 +17,10 @@
               <div class="swiper-caption">
                 <div class="swiper-slide-caption">
                   <div class="shell bg-dark section-41 section-sm-98 section-md-bottom-167">
-                    <h2>High-quality<br class="veil reveal-md-block"> chiropractic services
+                    <h2>{!! trans('header.main.index.slide2.title') !!}<br class="veil reveal-md-block">{!! trans('header.main.index.slide2.subtitle') !!}
                     </h2>
-                    <h5 class="veil reveal-md-block">We offer affordable high-quality chiropractic services to everyone<br class="veil reveal-md-block"> who cares about their health and would like to improve it.
-                    </h5><a href="make-an-appointment.html" class="btn btn-ellipse btn-java offset-top-24">make an appointment</a>
+                    <h5 class="veil reveal-md-block">{!! trans('header.main.index.slide2.text1') !!}<br class="veil reveal-md-block">{!! trans('header.main.index.slide2.text2') !!}
+                    </h5><a href="make-an-appointment.html" class="btn btn-ellipse btn-java offset-top-24">{!! trans('header.main.index.slide2.appointment') !!}</a>
                   </div>
                 </div>
               </div>
@@ -28,10 +29,10 @@
               <div class="swiper-caption">
                 <div class="swiper-slide-caption">
                   <div class="shell bg-dark section-41 section-sm-98 section-md-bottom-167">
-                    <h2>The best therapy and<br class="veil reveal-md-block"> injuries treatment
+                    <h2>{!! trans('header.main.index.slide3.title') !!}<br class="veil reveal-md-block">{!! trans('header.main.index.slide3.subtitle') !!}
                     </h2>
-                    <h5 class="veil reveal-md-block">At Chiropractic, you can get professional treatment of a wide<br class="veil reveal-md-block"> range of injuries and experience advanced therapy.
-                    </h5><a href="make-an-appointment.html" class="btn btn-ellipse btn-java offset-top-24">make an appointment</a>
+                    <h5 class="veil reveal-md-block">{!! trans('header.main.index.slide3.text1') !!}<br class="veil reveal-md-block">{!! trans('header.main.index.slide3.text2') !!}
+                    </h5><a href="make-an-appointment.html" class="btn btn-ellipse btn-java offset-top-24">{!! trans('header.main.index.slide3.appointment') !!}</a>
                   </div>
                 </div>
               </div>

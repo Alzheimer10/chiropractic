@@ -48,41 +48,42 @@
                     </div>
                     <!-- RD Navbar Nav-->
                     <ul class="rd-navbar-nav">
-                      <li class="active"><a href="{{@route('index')}}"><span>Home</span></a>
+                      <li class="active"><a href="{{@route('index')}}"><span>{!! trans('header.main.menu.home') !!}</span></a>
                       </li>
-                      <li><a ><span>About</span></a>
+                      <li><a ><span>{!! trans('header.main.menu.about') !!}</span></a>
                         <ul class="rd-navbar-dropdown">
-                          <li><a href="{{@route('about')}}"><span class="text-middle">A Clinica</span></a>
+                          <li><a href="{{@route('about.weare')}}"><span class="text-middle">{!! trans('header.main.submenu.about.1') !!}</span></a>
+                          <li><a href="{{@route('about.history')}}"><span class="text-middle">{!! trans('header.main.submenu.about.2') !!}</span></a>
                           </li>
-                          <li><a href="{{@route('about')}}"><span class="text-middle">Equipa Medica / Staff/Parcerias</span></a>
+                          <li><a href="{{@route('about.governance')}}"><span class="text-middle">{!! trans('header.main.submenu.about.3') !!}</span></a>
                           </li>
                         </ul>
                       </li>
 <!--                       <li><a href="{{@route('services')}}"><span></span></a>
                       </li> -->
-                      <li><a><span>Services</span></a>
+                      <li><a><span>{!! trans('header.main.menu.services') !!}</span></a>
                         <ul class="rd-navbar-dropdown">
-                          <li><a href="{{ route('services.newStar')}}"><span class="text-middle">NewStar</span></a>
+                          <li><a href="{{ route('services.medica')}}"><span class="text-middle">{!! trans('header.main.submenu.services.1') !!}</span></a>
                           </li>
-                          <li><a href="{{ route('services.colsultaMedica')}}"><span class="text-middle">Consulta medica</span></a>
+                          <li><a href="{{ route('services.psychology')}}"><span class="text-middle">{!! trans('header.main.submenu.services.2') !!}</span></a>
                           </li>
-                          <li><a href="{{ route('services.psicologiaClinica')}}"><span class="text-middle">Psicologia clinica</span></a>
+                          <li><a href="{{ route('services.dental')}}"><span class="text-middle">{!! trans('header.main.submenu.services.3') !!}</span></a>
                           </li>
-                          <li><a href="{{ route('services.depresion')}}"><span class="text-middle">Depresión</span></a>
+                          <li><a href="{{ route('services.newStart')}}"><span class="text-middle">{!! trans('header.main.submenu.services.4') !!}</span></a>
                           </li>
-                          <li><a href="{{ route('services.nutricion')}}"><span class="text-middle">Nutricao</span></a>
+                          <li><a href="{{ route('services.depresion')}}"><span class="text-middle">{!! trans('header.main.submenu.services.5') !!}</span></a>
                           </li>
-                          <li><a href="{{ route('services.diaSaludables')}}"><span class="text-middle">Días saludables</span></a>
+                          <li><a href="{{ route('services.internment')}}"><span class="text-middle">{!! trans('header.main.submenu.services.6') !!}</span></a>
                           </li> 
-                          <li><a href="{{ route('services.dejarFumar')}}"><span class="text-middle">Dejar de fumar</span></a>
+                          <li><a href="{{ route('services.healthy')}}"><span class="text-middle">{!! trans('header.main.submenu.services.7') !!}</span></a>
+                          </li>
+                          <li><a href="{{ route('services.formation')}}"><span class="text-middle">{!! trans('header.main.submenu.services.8') !!}</span></a>
+                          </li>
+                          <li><a href="{{ route('services.healthexpo')}}"><span class="text-middle">{!! trans('header.main.submenu.services.9') !!}</span></a>
                           </li>
                         </ul>
                       </li>
-                      <li><a><span>Contacts</span></a>
-                        <ul class="rd-navbar-dropdown">
-                        <li><a href="{{@route('contacts')}}"><span class="text-middle">Donde estamos</span></a>
-                        </li>
-                      </ul>
+                      <li><a href="{{@route('contacts')}}" ><span>{!! trans('header.main.menu.contacts') !!}</span></a>
                     </ul>
                   </div>
                 </div>
@@ -90,7 +91,7 @@
                 <div class="rd-navbar-search"><a data-rd-navbar-toggle=".rd-navbar-menu-wrap,.rd-navbar-search" href="#" class="rd-navbar-search-toggle mdi"><span></span></a>
                   <form action="search-results.html" data-search-live="rd-search-results-live" method="GET" class="rd-navbar-search-form search-form-icon-right rd-search">
                     <div class="form-group">
-                      <label for="rd-navbar-search-form-input" class="form-label">Type and hit enter...</label>
+                      <label for="rd-navbar-search-form-input" class="form-label">{!! trans('header.main.search') !!}</label>
                       <input id="rd-navbar-search-form-input" type="text" name="s" autocomplete="off" class="rd-navbar-search-form-input form-control form-control-gray-lightest"/>
                     </div>
                     <div id="rd-search-results-live" class="rd-search-results-live"></div>
