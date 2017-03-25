@@ -48,7 +48,7 @@
                     </div>
                     <!-- RD Navbar Nav-->
                     <ul class="rd-navbar-nav">
-                      <li class="active"><a href="{{@route('index')}}"><span>{!! trans('header.main.menu.home') !!}</span></a>
+                      <li class="{{ Request::is('/') ? 'active' : '' }}"><a href="{{@route('index')}}"><span>{!! trans('header.main.menu.home') !!}</span></a>
                       </li>
                       <li><a ><span>{!! trans('header.main.menu.about') !!}</span></a>
                         <ul class="rd-navbar-dropdown">
@@ -102,7 +102,5 @@
           </nav>
         </div>
         <!--Swiper-->
-        @if(View::exists($swiper))
-          @include($swiper)
-        @endif
+        @includeIf($swiper)
       </header>

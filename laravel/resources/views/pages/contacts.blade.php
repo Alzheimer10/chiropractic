@@ -58,9 +58,6 @@
                         <hr class="text-subline">
                                 <ul class="list-inline">
                                   <li><a href="#" class="icon fa fa-facebook icon-xxs icon-circle icon-gray-light"></a></li>
-                                  <li><a href="#" class="icon fa fa-twitter icon-xxs icon-circle icon-gray-light"></a></li>
-                                  <li><a href="#" class="icon fa fa-google-plus icon-xxs icon-circle icon-gray-light"></a></li>
-                                  <li><a href="#" class="icon fa fa-rss icon-xxs icon-circle icon-gray-light"></a></li>
                                 </ul>
                       </div>
                       <div class="offset-top-60">

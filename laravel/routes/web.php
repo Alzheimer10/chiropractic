@@ -11,6 +11,9 @@
 |
 */
 
+	//	
+	//	App::setLocale('');
+	
 	Route::get('/', function () {
 	    return view('welcome')->with('swiper', 'swiper.index');
 	})->name('index');
@@ -31,16 +34,16 @@
 	    return view('pages.privacity')->with('swiper', 'swiper.privacity');
 	})->name('privacity');
 // ABOUT
-Route::get('/weare', function () {
-	    return view('pages.about.weare')->with('swiper', 'swiper.services');
+	Route::get('/weare', function () {
+	    return view('pages.about.weare')->with('swiper', 'swiper.about');
 	})->name('about.weare');
 
 	Route::get('/history', function () {
-	    return view('pages.about.history')->with('swiper', 'swiper.services');
+	    return view('pages.about.history')->with('swiper', 'swiper.about');
 	})->name('about.history');
 
 	Route::get('/governance', function () {
-	    return view('pages.about.governance')->with('swiper', 'swiper.services');
+	    return view('pages.about.governance')->with('swiper', 'swiper.about');
 	})->name('about.governance');
 
 

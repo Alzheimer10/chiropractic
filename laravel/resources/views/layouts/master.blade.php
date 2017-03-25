@@ -20,8 +20,7 @@
     <script src="js/html5shiv.min.js"></script>
         <![endif]-->
   </head>
-  <body>
-
+  <body>  
     <!-- Page-->
     <div class="page text-center">
       <!-- Page Head-->

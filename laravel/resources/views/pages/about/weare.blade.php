@@ -3,7 +3,7 @@
 @stop
 
 @section('content')
-{!! trans('header.main.submenu.about.1') !!}
+<h2>{!! trans('header.main.submenu.about.1') !!}</h2>
 {!! trans('header.main.text.about1') !!}
 
 @stop
