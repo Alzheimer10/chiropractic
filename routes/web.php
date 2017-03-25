@@ -26,3 +26,35 @@
 	Route::get('/services', function () {
 	    return view('pages.services')->with('swiper', 'swiper.services');;
 	})->name('services');
+// ABOUT
+
+
+// SERVICIOS
+	Route::get('/colsulta-medica', function () {
+	    return view('pages.services.colsultaMedica')->with('swiper', 'swiper.services');;
+	})->name('services.colsultaMedica');
+
+	Route::get('/psicologia-clinica', function () {
+	    return view('pages.services.psicologiaClinica')->with('swiper', 'swiper.services');;
+	})->name('services.psicologiaClinica');
+
+	Route::get('/depresion', function () {
+	    return view('pages.services.depresion')->with('swiper', 'swiper.services');;
+	})->name('services.depresion');
+
+	Route::get('/dia-saludables', function () {
+	    return view('pages.services.diaSaludables')->with('swiper', 'swiper.services');;
+	})->name('services.diaSaludables');
+
+	Route::get('/dejar-fumar', function () {
+	    return view('pages.services.dejarFumar')->with('swiper', 'swiper.services');;
+	})->name('services.dejarFumar');
+
+	Route::get('/nutricion', function () {
+	    return view('pages.services.nutricion')->with('swiper', 'swiper.services');;
+	})->name('services.nutricion');
+
+	Route::get('/new-star', function () {
+	    return view('pages.services.newStar')->with('swiper', 'swiper.services');;
+	})->name('services.newStar');
+

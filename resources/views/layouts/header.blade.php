@@ -62,19 +62,19 @@
                       </li> -->
                       <li><a><span>Services</span></a>
                         <ul class="rd-navbar-dropdown">
-                          <li><a href="grid-gallery.html"><span class="text-middle">NewStar</span></a>
+                          <li><a href="{{ route('services.newStar')}}"><span class="text-middle">NewStar</span></a>
                           </li>
-                          <li><a href="grid-gallery-no-padding.html"><span class="text-middle">Consulta medica</span></a>
+                          <li><a href="{{ route('services.colsultaMedica')}}"><span class="text-middle">Consulta medica</span></a>
                           </li>
-                          <li><a href="{{ route('services')}}"><span class="text-middle">Psicologia clinica</span></a>
+                          <li><a href="{{ route('services.psicologiaClinica')}}"><span class="text-middle">Psicologia clinica</span></a>
                           </li>
-                          <li><a href="{{ route('services')}}"><span class="text-middle">Depressao</span></a>
+                          <li><a href="{{ route('services.depresion')}}"><span class="text-middle">Depresión</span></a>
                           </li>
-                          <li><a href="{{ route('services')}}"><span class="text-middle">Nutricao</span></a>
+                          <li><a href="{{ route('services.nutricion')}}"><span class="text-middle">Nutricao</span></a>
                           </li>
-                          <li><a href="{{ route('services')}}"><span class="text-middle">Dias saudaveis</span></a>
+                          <li><a href="{{ route('services.diaSaludables')}}"><span class="text-middle">Días saludables</span></a>
                           </li> 
-                          <li><a href="{{ route('services')}}"><span class="text-middle">Deixar de fumar</span></a>
+                          <li><a href="{{ route('services.dejarFumar')}}"><span class="text-middle">Dejar de fumar</span></a>
                           </li>
                         </ul>
                       </li>
