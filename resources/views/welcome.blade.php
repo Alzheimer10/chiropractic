@@ -3,43 +3,6 @@
 @stop
 
 @section('content')
-        <!-- What makes us different-->
-        <!--What makes us different-->
-        <section class="section-98 section-sm-110">
-          <div class="shell">
-            <h3>What makes us different</h3>
-            <hr class="divider divider-lg bg-primary">
-            <div class="range offset-top-60">
-              <div class="cell-md-4">
-                <div class="icon icon-xlg icon-rect icon-default icon-pills-xl"></div>
-                <h5 class="text-bold text-primary">Modern Techniques</h5>
-                <p>We use a combination of traditional and modern techniques to heal patients.</p>
-              </div>
-              <div class="cell-md-4 offset-top-50 offset-md-top-0">
-                <div class="icon icon-xlg icon-rect icon-default icon-doctor-xl"></div>
-                <h5 class="text-bold text-primary">Qualified Specialists</h5>
-                <p>Our team of more than 20 professionals are highly trained to serve our patients’ needs.</p>
-              </div>
-              <div class="cell-md-4 offset-top-50 offset-md-top-0">
-                <div class="icon icon-xlg icon-rect icon-default icon-medical-car-xl"></div>
-                <h5 class="text-bold text-primary">Therapy Services</h5>
-                <p>Chiropractic offers a wide variety of therapy services that helps in treating even the most complex injuries.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- Call to action-->
-        <section class="rd-parallax">
-          <div data-speed="0.2" data-type="media" data-url="images/backgrounds/background-03-1920x610.jpg" class="rd-parallax-layer"></div>
-          <div data-speed="0" data-type="html" class="rd-parallax-layer section-98 section-sm-110 context-dark">
-            <div class="shell text-center">
-              <h2>Supporting spinal health</h2>
-              <p class="offset-top-30 text-gray-light">We believe spinal health plays a vital role in human organism functioning. Get a free<br class="veil reveal-md-block"> consultation today to avoid problems with your health tomorrow.
-              </p>
-              <div class="offset-top-30"><a href="make-an-appointment.html" class="btn btn-ellipse btn-java">free consultation</a></div>
-            </div>
-          </div>
-        </section>
         <!-- Main services-->
         <section class="section-98 section-sm-110">
           <div class="shell">
@@ -205,7 +168,7 @@
           </div>
         </section>
         <!-- Call to action-->
-        <section class="rd-parallax">
+        <section class="rd-parallax" >
           <div data-speed="0.2" data-type="media" data-url="images/backgrounds/background-04-1920x890.jpg" class="rd-parallax-layer"></div>
           <div data-speed="0" data-type="html" class="rd-parallax-layer section-98 section-sm-110 context-dark">
             <div class="shell text-center">
@@ -216,95 +179,8 @@
             </div>
           </div>
         </section>
-        <!-- Latest blog posts-->
-        <section class="section-98 section-sm-110">
-          <div class="shell">
-            <h3>latest blog posts</h3>
-            <hr class="divider divider-lg bg-primary">
-            <div class="range range-xs-center offset-top-60">
-              <div class="cell-sm-8 cell-md-4">
-                <!-- Post Modern-->
-                <article class="post post-modern post-modern-classic">
-                  <!-- Post media-->
-                  <header class="post-media"><img width="370" height="250" src="images/blog/post-13-370x250.jpg" alt="" class="img-responsive img-cover"/>
-                  </header>
-                  <!-- Post content-->
-                  <section class="post-content text-left">
-                    <!-- Post Title-->
-                    <div class="post-title offset-top-8">
-                      <h4 class="text-bold"><a href="single-post.html">Benefits of Chiropractic Care Services</a></h4>
-                    </div>
-                    <ul class="list-inline list-inline-dashed">
-                      <li>June 21, 2016 at 8:12pm</li>
-                      <li><a href="blog-masonry.html" class="text-primary">Chiropractic</a></li>
-                    </ul>
-                    <!-- Post Body-->
-                    <div class="post-body">
-                      <p>Chiropractors are best known for safely and effectively treating acute back and neck pain, as well as headaches. Whereas a medical doctor...</p>
-                    </div>
-                    <div class="tags group group-sm">
-                    </div>
-                  </section>
-                </article>
-              </div>
-              <div class="cell-sm-8 cell-md-4 offset-top-50 offset-md-top-0">
-                <!-- Post Modern-->
-                <article class="post post-modern post-modern-classic">
-                  <!-- Post media-->
-                  <header class="post-media"><img width="370" height="250" src="images/blog/post-14-370x250.jpg" alt="" class="img-responsive img-cover"/>
-                  </header>
-                  <!-- Post content-->
-                  <section class="post-content text-left">
-                    <!-- Post Title-->
-                    <div class="post-title offset-top-8">
-                      <h4 class="text-bold"><a href="single-post.html">What Every Athlete Needs To Know About Injury Recovery</a></h4>
-                    </div>
-                    <ul class="list-inline list-inline-dashed">
-                      <li>June 21, 2016 at 8:12pm</li>
-                      <li><a href="blog-masonry.html" class="text-primary">Healthy Lifestyle</a></li>
-                    </ul>
-                    <!-- Post Body-->
-                    <div class="post-body">
-                      <p>About 2 months ago, I was participating in my morning class at Crossfit Omaha, partaking in a killer WOD (workout of the day) that required a lot of heavy squats...</p>
-                    </div>
-                    <div class="tags group group-sm">
-                    </div>
-                  </section>
-                </article>
-              </div>
-              <div class="cell-sm-8 cell-md-4 offset-top-50 offset-md-top-0">
-                <!-- Post Modern-->
-                <article class="post post-modern post-modern-classic">
-                  <!-- Post media-->
-                  <header class="post-media"><img width="370" height="250" src="images/blog/post-15-370x250.jpg" alt="" class="img-responsive img-cover"/>
-                  </header>
-                  <!-- Post content-->
-                  <section class="post-content text-left">
-                    <!-- Post Title-->
-                    <div class="post-title offset-top-8">
-                      <h4 class="text-bold"><a href="single-post.html">The Top 3 True Causes of Heart Disease</a></h4>
-                    </div>
-                    <ul class="list-inline list-inline-dashed">
-                      <li>June 21, 2016 at 8:12pm</li>
-                      <li><a href="blog-masonry.html" class="text-primary">Heart Health</a></li>
-                    </ul>
-                    <!-- Post Body-->
-                    <div class="post-body">
-                      <p>Heart disease is the number one cause of death in the U.S. How many people do you know that have been personally affected by heart disease? I’m guessing the number...</p>
-                    </div>
-                    <div class="tags group group-sm">
-                    </div>
-                  </section>
-                </article>
-              </div>
-            </div>
-            <div class="offset-top-50"><a href="blog-grid.html" class="btn btn-ellipse btn-java">View all blog posts</a></div>
-          </div>
-        </section>
-        <!-- Google map-->
-        <!-- RD Google Map-->
         <!-- Contacts-->
-        <section class="section-98 section-sm-110 text-center">
+        <section class="section-98 section-sm-110 text-center" style="display: none">
           <div class="shell">
             <div class="range">
               <div class="cell-md-4">

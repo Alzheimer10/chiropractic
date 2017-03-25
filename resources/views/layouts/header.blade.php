@@ -35,7 +35,7 @@
                 <div class="rd-navbar-nav-wrap">
                   <div class="rd-navbar-mobile-scroll">
                     <!--Navbar Brand Mobile-->
-                    <div class="rd-navbar-mobile-brand"><a href="index.html"><img width='316' height='57' class='img-responsive' src='images/logo-dark.png' alt=''/></a></div>
+                    <div class="rd-navbar-mobile-brand"><a href="{{ route('index')}}"><img width='316' height='57' class='img-responsive' src='images/logo-dark.png' alt=''/></a></div>
                     <div class="form-search-wrap">
                       <!-- RD Search Form-->
                       <form action="search-results.html" method="GET" class="form-search rd-search">
@@ -101,5 +101,7 @@
           </nav>
         </div>
         <!--Swiper-->
-        @include($swiper)
+        @if(View::exists($swiper))
+          @include($swiper)
+        @endif
       </header>

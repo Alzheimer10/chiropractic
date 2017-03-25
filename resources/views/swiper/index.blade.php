@@ -1,4 +1,4 @@
-       <div data-loop="true" data-height="" data-slide-effect="fade" data-dragable="false" data-min-height="400px" class="swiper-container swiper-slider bg-white">
+       <div data-loop="true" data-height="" data-slide-effect="fade" data-autoplay="true"  data-dragable="false" data-min-height="400px" class="swiper-container swiper-slider bg-white">
           <div class="swiper-wrapper text-center">
             <div id="page-loader" data-slide-bg="images/intros/slide-01.jpg" class="swiper-slide">
               <div class="swiper-caption">
