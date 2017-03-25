@@ -10,12 +10,15 @@
                     <!-- Footer brand-->
                     <div class="footer-brand reveal-inline-block"><a href="{{ route('index')}}"><img width='316' height='57' class='img-responsive' src='images/logo-dark.png' alt=''/></a></div>
                   </div>
-                  <div class="cell-md-4 offset-top-55 offset-md-top-0 cell-md-push-3 text-md-right">
-                          <ul class="list-inline">
-                            <li><a target="_blank" href="https://www.facebook.com/Vita-et-Salus-1334579476558441/?fref=ts" class="icon fa fa-facebook icon-xxs icon-circle icon-gray-light-2"></a></li>
-                          </ul>
+                  <div class="cell-xxs-6 cell-xs-6 cell-md-3 offset-top-55 offset-md-top-0 cell-md-push-3 text-md-right">
+                    <ul class="list-inline">
+                      <li><a target="_blank" href="https://www.facebook.com/Vita-et-Salus-1334579476558441/?fref=ts" class="icon fa fa-facebook icon-xxs icon-circle icon-gray-light-2"></a></li>
+                    </ul>
                   </div>
-                  <div class="cell-md-4 offset-top-55 offset-md-top-0 cell-md-push-2">
+                  <div class="cell-xxs-6 cell-xs-6 cell-md-2 offset-top-55 offset-md-top-0 cell-md-push-3">
+                      @include('complements/idiomaSelect')
+                  </div>
+                  <div class="cell-md-3 offset-top-55 offset-md-top-0 cell-md-push-2">
                     <p class="text-gray">&copy; <span id="copyright-year"></span> All Rights Reserved. <a href="{{ route('privacity')}}" class="text-gray">Privacy Policy</a></p>
                   </div>
                 </div>
