@@ -10,53 +10,57 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-	//	
-	//	App::setLocale('');
-	
-	Route::get('/', function () {
+Route::group(
+	[
+		'prefix' => LaravelLocalization::setLocale(),
+		'middleware' => [ 'localeSessionRedirect', 'localizationRedirect' ,'localize']
+	],
+	function()
+	{
+		/** ADD ALL LOCALIZED ROUTES INSIDE THIS GROUP **/
+		Route::get('/', function () {
 	    return view('welcome')->with('swiper', 'swiper.index');
 	})->name('index');
 
-	Route::get('/about', function () {
+	Route::get(LaravelLocalization::transRoute('route.about'), function () {
 	    return view('pages.about')->with('swiper', 'swiper.about');
 	})->name('about');
 
-	Route::get('/contacts', function () {
+	Route::get(LaravelLocalization::transRoute('route.contacts'), function () {
 	    return view('pages.contacts')->with('swiper', 'swiper.contacts');
 	})->name('contacts');
 
-	Route::get('/services', function () {
+	Route::get(LaravelLocalization::transRoute('route.services'), function () {
 	    return view('pages.services')->with('swiper', 'swiper.services');
 	})->name('services');
 
-	Route::get('/privacity', function () {
+	Route::get(LaravelLocalization::transRoute('route.privacity'), function () {
 	    return view('pages.privacity')->with('swiper', 'swiper.privacity');
 	})->name('privacity');
 // ABOUT
-	Route::get('/weare', function () {
+	Route::get(LaravelLocalization::transRoute('route.weare'), function () {
 	    return view('pages.about.weare')->with('swiper', 'swiper.about');
 	})->name('about.weare');
 
-	Route::get('/history', function () {
+	Route::get(LaravelLocalization::transRoute('route.history'), function () {
 	    return view('pages.about.history')->with('swiper', 'swiper.about');
 	})->name('about.history');
 
-	Route::get('/governance', function () {
+	Route::get(LaravelLocalization::transRoute('route.governance'), function () {
 	    return view('pages.about.governance')->with('swiper', 'swiper.about');
 	})->name('about.governance');
 
 
 // SERVICIOS
-	Route::get('/medica', function () {
+	Route::get(LaravelLocalization::transRoute('route.medica'), function () {
 	    return view('pages.services.medica')->with('swiper', 'swiper.services');
 	})->name('services.medica');
 
-	Route::get('/psychology', function () {
+	Route::get(LaravelLocalization::transRoute('route.psychology'), function () {
 	    return view('pages.services.psychology')->with('swiper', 'swiper.services');
 	})->name('services.psychology');
 
-	Route::get('/dental', function () {
+	Route::get(LaravelLocalization::transRoute('route.dental'), function () {
 	    return view('pages.services.dental')->with('swiper', 'swiper.services');
 	})->name('services.dental');
 
@@ -64,23 +68,27 @@
 	    return view('pages.services.newStart')->with('swiper', 'swiper.services');
 	})->name('services.newStart');
 
-	Route::get('/depresion', function () {
+	Route::get(LaravelLocalization::transRoute('route.depresion'), function () {
 	    return view('pages.services.depresion')->with('swiper', 'swiper.services');
 	})->name('services.depresion');
 
-	Route::get('/internment', function () {
+	Route::get(LaravelLocalization::transRoute('route.internment'), function () {
 	    return view('pages.services.internment')->with('swiper', 'swiper.services');
 	})->name('services.internment');
 
-	Route::get('/healthy', function () {
+	Route::get(LaravelLocalization::transRoute('route.healthy'), function () {
 	    return view('pages.services.healthy')->with('swiper', 'swiper.services');
 	})->name('services.healthy');
 
-	Route::get('/formation', function () {
+	Route::get(LaravelLocalization::transRoute('route.formation'), function () {
 	    return view('pages.services.formation')->with('swiper', 'swiper.services');
 	})->name('services.formation');
 
-	Route::get('/healthexpo', function () {
+	Route::get(LaravelLocalization::transRoute('route.healthexpo'), function () {
 	    return view('pages.services.healthexpo')->with('swiper', 'swiper.services');
 	})->name('services.healthexpo');
+	});
+
+
+	
 

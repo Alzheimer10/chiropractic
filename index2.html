@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <script src= "js/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+                  
+        <lenguage-select v-on:selecionado="padreseleccion"></lenguage-select>  
+
+          <h2>Hola : {{selected}}</h2>
+
+</div>
+</body>
+</html>
+
+
+  <!-- Java script-->
+    <script type="text/template" id="lenguage-template">
+
+      <select name="lang" id="lang" class="selectpicker" v-model="selected" @change="selecionado">
+          <option  value="en" data-icon="flag us">English  &nbsp;&nbsp;</option>
+          <option  value="es" data-icon="flag es">Español&nbsp;</option>
+          <option  value="pt" data-icon="flag pt">Portuguese</option>
+      </select>
+    </script>
+    <script>
+
+      Vue.component('lenguage-select', {
+        template: '#lenguage-template',
+        data: function () {
+            return {selected:'en'}
+        },
+        methods: {
+    selecionado: function () {
+      this.$emit('selecionado',this.selected)
+        } 
+        }
+      })
+
+   var app7 =  new Vue({
+      el: '#app',
+      data:{
+          selected:''
+        },
+      methods: {
+    padreseleccion: function ($selected) {
+      this.selected = $selected; 
+      }
+
+      }})
+
+    </script>

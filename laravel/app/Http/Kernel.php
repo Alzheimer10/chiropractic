@@ -34,6 +34,7 @@ class Kernel extends HttpKernel
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
             \App\Http\Middleware\VerifyCsrfToken::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
+            \ied3vil\LanguageSwitcher\Middleware\LanguageSwitcherMiddleware::class,
         ],
 
         'api' => [
@@ -56,5 +57,9 @@ class Kernel extends HttpKernel
         'can' => \Illuminate\Auth\Middleware\Authorize::class,
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
+        'localize' => \Mcamara\LaravelLocalization\Middleware\LaravelLocalizationRoutes::class,
+        'localizationRedirect' => \Mcamara\LaravelLocalization\Middleware\LaravelLocalizationRedirectFilter::class,
+        'localeSessionRedirect' => \Mcamara\LaravelLocalization\Middleware\LocaleSessionRedirect::class,
+        'localize' => 'Mcamara\LaravelLocalization\Middleware\LaravelLocalizationRoutes',
     ];
 }

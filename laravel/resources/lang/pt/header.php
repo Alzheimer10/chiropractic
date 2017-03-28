@@ -16,12 +16,13 @@ return [
     [
         'menu'=> 
         [
-            'home' => 'Home',
+            'home' => 'Inicio',
             'about' => 'QUEM SOMOS',
             'services' => 'O QUE FAZEMOS – GERAL',
             'contacts' => 'CONTATOS',
 
         ],
+        'lang' => 'Selecionar idioma',
         'submenu'=> 
         [
             'about' => ['1'=>'QUEM SOMOS','2'=>'A NOSSA HISTÓRIA','3'=>'GOVERNAÇÃO'],

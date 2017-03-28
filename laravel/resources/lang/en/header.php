@@ -22,6 +22,7 @@ return [
             'contacts' => 'Contacts',
 
         ],
+        'lang' => 'Select language',
         'submenu'=> 
         [
             'about' => ['1'=>'The Clinic','2'=>'Medical Team / Staff / Partnerships'],

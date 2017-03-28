@@ -6,7 +6,7 @@
               <div class="rd-navbar-top-panel">
 
                 <!--Navbar Brand-->
-                <div class="rd-navbar-brand veil reveal-md-inline-block"><a href="{{ route('index')}}"><img width='316' height='57' class='img-responsive' src='images/logo-dark.png' alt=''/></a></div>
+                <div class="rd-navbar-brand veil reveal-md-inline-block"><a href="{{ route('index')}}"><img width='316' height='57' class='img-responsive' src="{{asset('images/logo-dark.png')}}" alt=''/></a></div>
                 <div>
                   <address class="contact-info reveal-sm-inline-block text-left offset-none">
                     <div class="p unit unit-spacing-xs unit-horizontal">

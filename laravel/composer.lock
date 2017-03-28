@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "96098e473b028cdb2529580554a1ae3e",
+    "content-hash": "06fd5c780bea5a04f9a447f9e6cdf045",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -147,6 +147,51 @@
                 "parser"
             ],
             "time": "2016-11-02T15:56:58+00:00"
+        },
+        {
+            "name": "ied3vil/language-switcher",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ied3vil/LanguageSwitcher.git",
+                "reference": "a8943347d34058c9b172fbb4f8b81da8e8342462"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ied3vil/LanguageSwitcher/zipball/a8943347d34058c9b172fbb4f8b81da8e8342462",
+                "reference": "a8943347d34058c9b172fbb4f8b81da8e8342462",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "ied3vil\\": "src/ied3vil/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache 2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Razvan-Cristian Marian",
+                    "email": "ied3vil@gmail.com",
+                    "homepage": "http://www.ied3vil.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravel Language Switcher",
+            "homepage": "https://github.com/ied3vil/language-switcher",
+            "keywords": [
+                "language",
+                "laravel",
+                "php",
+                "switcher"
+            ],
+            "time": "2016-07-17T10:31:35+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -504,6 +549,55 @@
                 "storage"
             ],
             "time": "2017-03-22T15:43:14+00:00"
+        },
+        {
+            "name": "mcamara/laravel-localization",
+            "version": "1.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mcamara/laravel-localization.git",
+                "reference": "beb1244a4ce2fe793f37696ec0d89eed015f385e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mcamara/laravel-localization/zipball/beb1244a4ce2fe793f37696ec0d89eed015f385e",
+                "reference": "beb1244a4ce2fe793f37696ec0d89eed015f385e",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "~5.2",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "orchestra/testbench-browser-kit": "~3.4",
+                "phpunit/phpunit": "5.4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [],
+                "psr-0": {
+                    "Mcamara\\LaravelLocalization": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marc Cámara",
+                    "email": "mcamara88@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Easy localization for Laravel",
+            "homepage": "https://github.com/mcamara/laravel-localization",
+            "keywords": [
+                "laravel",
+                "localization",
+                "php"
+            ],
+            "time": "2017-02-18T20:52:38+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -901,16 +995,16 @@
         },
         {
             "name": "ramsey/uuid",
-            "version": "3.6.0",
+            "version": "3.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "0b7bdfb180e72c8d76e75a649ced67e392201458"
+                "reference": "4ae32dd9ab8860a4bbd750ad269cba7f06f7934e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/0b7bdfb180e72c8d76e75a649ced67e392201458",
-                "reference": "0b7bdfb180e72c8d76e75a649ced67e392201458",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/4ae32dd9ab8860a4bbd750ad269cba7f06f7934e",
+                "reference": "4ae32dd9ab8860a4bbd750ad269cba7f06f7934e",
                 "shasum": ""
             },
             "require": {
@@ -922,9 +1016,9 @@
             },
             "require-dev": {
                 "apigen/apigen": "^4.1",
-                "codeception/aspect-mock": "1.0.0",
+                "codeception/aspect-mock": "^1.0 | ^2.0",
                 "doctrine/annotations": "~1.2.0",
-                "goaop/framework": "1.0.0-alpha.2",
+                "goaop/framework": "1.0.0-alpha.2 | ^1.0 | ^2.1",
                 "ircmaxell/random-lib": "^1.1",
                 "jakub-onderka/php-parallel-lint": "^0.9.0",
                 "mockery/mockery": "^0.9.4",
@@ -979,7 +1073,7 @@
                 "identifier",
                 "uuid"
             ],
-            "time": "2017-03-18T15:38:09+00:00"
+            "time": "2017-03-26T20:37:53+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

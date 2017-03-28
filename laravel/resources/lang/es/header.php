@@ -22,6 +22,7 @@ return [
             'contacts' => 'Contactanos',
 
         ],
+        'lang' => 'Seleccionar lenguaje',
         'submenu'=> 
         [
             'about' => ['1'=>'Quienes Somos','2'=>'Nuestra historia','3'=>'Gobierno'],
