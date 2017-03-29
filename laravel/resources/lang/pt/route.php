@@ -1,7 +1,7 @@
 <?php 
 return [
-      "about" 		=> 	"quem-somos",
-      "contacts" 		=> 	"contatos", 
+      "about" 	=> "quem-somos",
+      "contacts" 	=> "contatos", 
       "services" => "o-que-fazemos – geral",
       "privacity" => "privacidade",
       "weare" => "quem-somos",

@@ -25,9 +25,9 @@ return [
         'lang' => 'Select language',
         'submenu'=> 
         [
-            'about' => ['1'=>'The Clinic','2'=>'Medical Team / Staff / Partnerships'],
-            'services' => ['1' => 'NewStar','2' => 'Medical consultation','3' => 'Clinical psychology','4' => 'Depression','5' => 'Nutrition','6' => 'Healthy Days','7' => 'Give up smoking'],
-            'contacts' => ['1' => 'Where we are?']
+            'about' => ['1'=>'WHO WE ARE','2'=>'OUR HISTORY','3' => 'GOVERNANCE'],
+            'services' => ['1' => 'Doctors appointments','2' => 'psychological consultations','3' => 'Dentists','4' => 'NEWSTART®','5' => 'Recovery from Depression and Anxiety','6' => 'Internment','7' => 'Healthy stays','8'=>'Training programs','9'=>'Expo health and expo health child'],
+            'contacts'
         ],
         'search' => 'Type and hit enter..',
         'index' => ['slide1'
