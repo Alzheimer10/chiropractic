@@ -3,6 +3,6 @@
 	@foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
     	<option data-icon="flag {{$localeCode}}" value="{{LaravelLocalization::getLocalizedURL($localeCode) }}" 
 			@if(LaravelLocalization::getCurrentLocale() == $localeCode) selected @endif
-    	>{{ $properties['native'] }}</option>
+    	>{{ ucwords($properties['native']) }}</option>
 	@endforeach
-</select>	
+</select>

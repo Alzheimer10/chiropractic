@@ -6,34 +6,34 @@
         <!-- Main services-->
         <section class="section-98 section-sm-110">
           <div class="shell">
-            <h3>main services</h3>
+            <h3>{!! trans('header.main.welcome.mainservices') !!}<!-- main services --></h3>
             <hr class="divider divider-lg bg-primary">
             <div class="offset-top-41 offset-md-top-60">
-              <p>We provide high-quality chiropractic services for the whole family.</p>
+              <p>{!! trans('header.main.welcome.text') !!}<!-- We provide high-quality chiropractic services for the whole family. --></p>
             </div>
             <div class="range offset-top-60 text-md-left">
               <div class="cell-sm-6 cell-md-4">
-                <div class="service"><img src="images/pages/home-01-320x320.jpg" width="320" height="320" alt="" class="img-responsive"/><a href="services.html" class="service-desc h6">Chiropractic Care</a>
+                <div class="service"><img src="images/pages/home-01-320x320.jpg" width="320" height="320" alt="" class="img-responsive"/><a href="{{ route('services.medica')}}" class="service-desc h6">{!! trans('header.main.submenu.services.1')!!}<!-- Chiropractic Care --></a>
                 </div>
               </div>
               <div class="cell-sm-6 cell-md-4 offset-top-50 offset-sm-top-0">
-                <div class="service"><img src="images/pages/home-02-320x320.jpg" width="320" height="320" alt="" class="img-responsive"/><a href="services.html" class="service-desc h6">Massage Therapy</a>
+                <div class="service"><img src="images/pages/home-02-320x320.jpg" width="320" height="320" alt="" class="img-responsive"/><a href="{{ route('services.newStart')}}" class="service-desc h6">{!! trans('header.main.submenu.services.4') !!}<!-- Massage Therapy --></a>
                 </div>
               </div>
               <div class="cell-sm-6 cell-md-4 offset-top-50 offset-md-top-0">
-                <div class="service"><img src="images/pages/home-03-320x320.jpg" width="320" height="320" alt="" class="img-responsive"/><a href="services.html" class="service-desc h6">Lifestyle Advice</a>
+                <div class="service"><img src="images/pages/home-03-320x320.jpg" width="320" height="320" alt="" class="img-responsive"/><a href="{{ route('services.depresion')}}" class="service-desc h6">{!! trans('header.main.submenu.services.5') !!}<!-- Lifestyle Advice --></a>
                 </div>
               </div>
               <div class="cell-sm-6 cell-md-4 offset-top-50">
-                <div class="service"><img src="images/pages/home-04-320x320.jpg" width="320" height="320" alt="" class="img-responsive"/><a href="services.html" class="service-desc h6">Nutrition Counseling</a>
+                <div class="service"><img src="images/pages/home-04-320x320.jpg" width="320" height="320" alt="" class="img-responsive"/><a href="{{ route('services.internment')}}" class="service-desc h6">{!! trans('header.main.submenu.services.6')!!}<!-- Nutrition Counseling --></a>
                 </div>
               </div>
               <div class="cell-sm-6 cell-md-4 offset-top-50">
-                <div class="service"><img src="images/pages/home-05-320x320.jpg" width="320" height="320" alt="" class="img-responsive"/><a href="services.html" class="service-desc h6">Corrective Exercises</a>
+                <div class="service"><img src="images/pages/home-05-320x320.jpg" width="320" height="320" alt="" class="img-responsive"/><a href="{{ route('services.healthy')}}" class="service-desc h6">{!! trans('header.main.submenu.services.7') !!}<!-- Corrective Exercises --></a>
                 </div>
               </div>
               <div class="cell-sm-6 cell-md-4 offset-top-50">
-                <div class="service"><img src="images/pages/home-06-320x320.jpg" width="320" height="320" alt="" class="img-responsive"/><a href="services.html" class="service-desc h6">Spinal Screenings</a>
+                <div class="service"><img src="images/pages/home-06-320x320.jpg" width="320" height="320" alt="" class="img-responsive"/><a href="{{ route('services.formation')}}" class="service-desc h6">{!! trans('header.main.submenu.services.8') !!}<!-- Spinal Screenings --></a>
                 </div>
               </div>
             </div>
@@ -87,7 +87,7 @@
         <!-- Testimonials-->
         <section class="section-98 section-sm-110">
           <div class="shell">
-            <h3>Testimonials</h3>
+            <h3>{!! trans('header.main.welcome.testimonials') !!}<!-- Testimonials --></h3>
             <hr class="divider divider-lg bg-primary">
             <div class="offset-top-66">
               <div data-loop="false" data-items="1" data-dots="true" data-mouse-drag="false" data-md-items="2" data-nav="false" class="owl-carousel owl-carousel-default owl-carousel-class-light">
@@ -172,10 +172,11 @@
           <div data-speed="0.2" data-type="media" data-url="images/backgrounds/background-04-1920x890.jpg" class="rd-parallax-layer"></div>
           <div data-speed="0" data-type="html" class="rd-parallax-layer section-98 section-sm-110 context-dark">
             <div class="shell text-center">
-              <h2>Wellness awaits you</h2>
-              <p class="offset-top-30 text-gray-light">Experience the top level of wellness and health services at Chiropractic!<br class="veil reveal-md-block"> Our specialists know how to improve your health.
+              <h2>{!! trans('header.main.welcome.parallax.1') !!}<!-- Wellness awaits you --></h2>
+              <p class="offset-top-30 text-gray-light">{!! trans('header.main.welcome.parallax.2') !!}<!-- Experience the top level of wellness and health services at Chiropractic! --><br class="veil reveal-md-block">{!! trans('header.main.welcome.parallax.3') !!} <!-- Our specialists know how to improve your health. -->
               </p>
-              <div class="offset-top-30"><a href="make-an-appointment.html" class="btn btn-ellipse btn-java">free consultation</a></div>
+              <div class="offset-top-30"><a href="{{@route('contacts')}}" class="btn btn-ellipse btn-java">
+              {!! trans('header.main.welcome.parallax.4') !!}<!-- free consultation --></a></div>
             </div>
           </div>
         </section>
