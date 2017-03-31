@@ -1,6 +1,6 @@
       <!-- Page Footer-->
       <!-- Default footer-->
-      <footer class="section-relative section-34 section-md-66 page-footer bg-lighter context-light">
+      <footer class="section-relative section-34 section-md-20 page-footer bg-lighter context-light">
         <div class="shell-wide">
           <div class="inset-xl-left-30">
             <div class="range range-sm-center">
@@ -14,9 +14,6 @@
                     <ul class="list-inline">
                       <li><a target="_blank" href="https://www.facebook.com/Vita-et-Salus-1334579476558441/?fref=ts" class="icon fa fa-facebook icon-xxs icon-circle icon-gray-light-2"></a></li>
                     </ul>
-                  </div>
-                  <div class="cell-xxs-6 cell-xs-6 cell-md-2 offset-top-55 offset-md-top-0 cell-md-push-3">
-                      @include('complements/idiomaSelect')
                   </div>
                   <div class="cell-md-3 offset-top-55 offset-md-top-0 cell-md-push-2">
                     <p class="text-gray">&copy; <span id="copyright-year"></span> All Rights Reserved. <a href="{{ route('privacity')}}" class="text-gray">Privacy Policy</a></p>

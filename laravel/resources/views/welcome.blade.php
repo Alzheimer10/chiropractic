@@ -4,7 +4,7 @@
 
 @section('content')
         <!-- Main services-->
-        <section class="section-98 section-sm-110">
+        <section class="section-98 section-sm-20">
           <div class="shell">
             <h3>main services</h3>
             <hr class="divider divider-lg bg-primary">
@@ -39,53 +39,8 @@
             </div>
           </div>
         </section>
-        <!-- Our Team-->
-        <section>
-          <div class="reveal-md-flex range-xs-center">
-            <!-- Thumbnail Josip-->
-            <figure class="thumbnail-josip thumbnail-big odd"><a href="team-member.html"><img width="384" height="410" src="images/pages/our-team-05-384x410.jpg" alt=""/></a>
-              <div class="thumbnail-desc">
-                <h5 class="thumbnail-josip-title text-bold text-white">Scott Riley</h5>
-                <p class="veil reveal-md-block text-italic text-white offset-top-0">Chief Medical Officer</p>
-              </div>
-              <figcaption><a href="team-member.html" class="btn btn-block btn-rect text-md-left btn-java">view full profile</a></figcaption>
-            </figure>
-            <!-- Thumbnail Josip-->
-            <figure class="thumbnail-josip thumbnail-big offset-top-41 offset-md-top-0"><a href="team-member.html"><img width="384" height="410" src="images/pages/our-team-06-384x410.jpg" alt=""/></a>
-              <div class="thumbnail-desc">
-                <h5 class="thumbnail-josip-title text-bold text-white">Johnny Fowler</h5>
-                <p class="veil reveal-md-block text-italic text-white offset-top-0">Chiropractor</p>
-              </div>
-              <figcaption><a href="team-member.html" class="btn btn-block btn-rect text-md-left btn-java">view full profile</a></figcaption>
-            </figure>
-            <!-- Thumbnail Josip-->
-            <figure class="thumbnail-josip thumbnail-big offset-top-41 offset-md-top-0 odd"><a href="team-member.html"><img width="384" height="410" src="images/pages/our-team-07-384x410.jpg" alt=""/></a>
-              <div class="thumbnail-desc">
-                <h5 class="thumbnail-josip-title text-bold text-white">Eric Snyder</h5>
-                <p class="veil reveal-md-block text-italic text-white offset-top-0">Clinical Chiropractic Assistant</p>
-              </div>
-              <figcaption><a href="team-member.html" class="btn btn-block btn-rect text-md-left btn-java">view full profile</a></figcaption>
-            </figure>
-            <!-- Thumbnail Josip-->
-            <figure class="thumbnail-josip thumbnail-big offset-top-41 offset-md-top-0"><a href="team-member.html"><img width="384" height="410" src="images/pages/our-team-08-384x410.jpg" alt=""/></a>
-              <div class="thumbnail-desc">
-                <h5 class="thumbnail-josip-title text-bold text-white">Martha Schmidt</h5>
-                <p class="veil reveal-md-block text-italic text-white offset-top-0">Licensed Massage Therapist</p>
-              </div>
-              <figcaption><a href="team-member.html" class="btn btn-block btn-rect text-md-left btn-java">view full profile</a></figcaption>
-            </figure>
-            <!-- Thumbnail Josip-->
-            <figure class="thumbnail-josip thumbnail-big offset-top-41 offset-md-top-0 odd"><a href="team-member.html"><img width="384" height="410" src="images/pages/our-team-09-384x410.jpg" alt=""/></a>
-              <div class="thumbnail-desc">
-                <h5 class="thumbnail-josip-title text-bold text-white">Katherine Wong</h5>
-                <p class="veil reveal-md-block text-italic text-white offset-top-0">Front Desk Coordinator</p>
-              </div>
-              <figcaption><a href="team-member.html" class="btn btn-block btn-rect text-md-left btn-java">view full profile</a></figcaption>
-            </figure>
-          </div>
-        </section>
         <!-- Testimonials-->
-        <section class="section-98 section-sm-110">
+        <section class="section-98 section-sm-20">
           <div class="shell">
             <h3>Testimonials</h3>
             <hr class="divider divider-lg bg-primary">
@@ -167,8 +122,53 @@
             </div>
           </div>
         </section>
+        <!-- Our Team-->
+        <section class="section-60 section-sm-20" style="padding-bottom: 60px !important;">
+          <div class="reveal-md-flex range-xs-center">
+            <!-- Thumbnail Josip-->
+            <figure class="thumbnail-josip thumbnail-big odd"><a href="team-member.html"><img width="384" height="410" src="images/pages/our-team-05-384x410.jpg" alt=""/></a>
+              <div class="thumbnail-desc">
+                <h5 class="thumbnail-josip-title text-bold text-white">Scott Riley</h5>
+                <p class="veil reveal-md-block text-italic text-white offset-top-0">Chief Medical Officer</p>
+              </div>
+              <figcaption><a href="team-member.html" class="btn btn-block btn-rect text-md-left btn-java">view full profile</a></figcaption>
+            </figure>
+            <!-- Thumbnail Josip-->
+            <figure class="thumbnail-josip thumbnail-big offset-top-41 offset-md-top-0"><a href="team-member.html"><img width="384" height="410" src="images/pages/our-team-06-384x410.jpg" alt=""/></a>
+              <div class="thumbnail-desc">
+                <h5 class="thumbnail-josip-title text-bold text-white">Johnny Fowler</h5>
+                <p class="veil reveal-md-block text-italic text-white offset-top-0">Chiropractor</p>
+              </div>
+              <figcaption><a href="team-member.html" class="btn btn-block btn-rect text-md-left btn-java">view full profile</a></figcaption>
+            </figure>
+            <!-- Thumbnail Josip-->
+            <figure class="thumbnail-josip thumbnail-big offset-top-41 offset-md-top-0 odd"><a href="team-member.html"><img width="384" height="410" src="images/pages/our-team-07-384x410.jpg" alt=""/></a>
+              <div class="thumbnail-desc">
+                <h5 class="thumbnail-josip-title text-bold text-white">Eric Snyder</h5>
+                <p class="veil reveal-md-block text-italic text-white offset-top-0">Clinical Chiropractic Assistant</p>
+              </div>
+              <figcaption><a href="team-member.html" class="btn btn-block btn-rect text-md-left btn-java">view full profile</a></figcaption>
+            </figure>
+            <!-- Thumbnail Josip-->
+            <figure class="thumbnail-josip thumbnail-big offset-top-41 offset-md-top-0"><a href="team-member.html"><img width="384" height="410" src="images/pages/our-team-08-384x410.jpg" alt=""/></a>
+              <div class="thumbnail-desc">
+                <h5 class="thumbnail-josip-title text-bold text-white">Martha Schmidt</h5>
+                <p class="veil reveal-md-block text-italic text-white offset-top-0">Licensed Massage Therapist</p>
+              </div>
+              <figcaption><a href="team-member.html" class="btn btn-block btn-rect text-md-left btn-java">view full profile</a></figcaption>
+            </figure>
+            <!-- Thumbnail Josip-->
+            <figure class="thumbnail-josip thumbnail-big offset-top-41 offset-md-top-0 odd"><a href="team-member.html"><img width="384" height="410" src="images/pages/our-team-09-384x410.jpg" alt=""/></a>
+              <div class="thumbnail-desc">
+                <h5 class="thumbnail-josip-title text-bold text-white">Katherine Wong</h5>
+                <p class="veil reveal-md-block text-italic text-white offset-top-0">Front Desk Coordinator</p>
+              </div>
+              <figcaption><a href="team-member.html" class="btn btn-block btn-rect text-md-left btn-java">view full profile</a></figcaption>
+            </figure>
+          </div>
+        </section>
         <!-- Call to action-->
-        <section class="rd-parallax" >
+        <section class="rd-parallax section-98 section-sm-110">
           <div data-speed="0.2" data-type="media" data-url="images/backgrounds/background-04-1920x890.jpg" class="rd-parallax-layer"></div>
           <div data-speed="0" data-type="html" class="rd-parallax-layer section-98 section-sm-110 context-dark">
             <div class="shell text-center">
