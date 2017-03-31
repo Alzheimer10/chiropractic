@@ -1,6 +1,6 @@
        <div data-loop="true" data-height="" data-slide-effect="fade" data-autoplay="true"  data-dragable="false" data-min-height="400px" class="swiper-container swiper-slider bg-white">
           <div class="swiper-wrapper text-center">
-            <div id="page-loader" data-slide-bg="images/intros/slide-01.jpg" class="swiper-slide">
+            <div id="page-loader" data-slide-bg="images/intros/slide-01.png" class="swiper-slide">
               <div class="swiper-caption">
                 <div class="swiper-slide-caption">
                   <div class="shell bg-dark section-41 section-sm-98 section-md-bottom-167">
@@ -13,7 +13,7 @@
                 </div>
               </div>
             </div>
-            <div data-slide-bg="images/intros/slide-02.jpg" class="swiper-slide">
+            <div data-slide-bg="images/intros/slide-02.JPG" class="swiper-slide">
               <div class="swiper-caption">
                 <div class="swiper-slide-caption">
                   <div class="shell bg-dark section-41 section-sm-98 section-md-bottom-167">
@@ -25,7 +25,7 @@
                 </div>
               </div>
             </div>
-            <div data-slide-bg="images/intros/slide-03.jpg" class="swiper-slide">
+            <div data-slide-bg="images/intros/slide-03.JPG" class="swiper-slide">
               <div class="swiper-caption">
                 <div class="swiper-slide-caption">
                   <div class="shell bg-dark section-41 section-sm-98 section-md-bottom-167">

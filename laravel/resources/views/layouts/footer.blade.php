@@ -8,7 +8,7 @@
                 <div class="range range-md-justify range-md-middle">
                   <div class="cell-md-4 cell-md-push-1 text-md-left">
                     <!-- Footer brand-->
-                    <div class="footer-brand reveal-inline-block"><a href="{{ route('index')}}"><img width='316' height='57' class='img-responsive' src="{{asset('images/logo-dark.png')}}" alt=''/></a></div>
+                    <div class="footer-brand reveal-inline-block"><a href="{{ route('index')}}"><img width='316' height='57' class='img-responsive' src="{{asset('images/logo-dark.jpeg')}}" alt=''/></a></div>
                   </div>
                   <div class="cell-xxs-6 cell-xs-6 cell-md-3 offset-top-55 offset-md-top-0 cell-md-push-3 text-md-right">
                     <ul class="list-inline">
