@@ -6,23 +6,49 @@
               <div class="rd-navbar-top-panel">
 
                 <!--Navbar Brand-->
-                <div class="rd-navbar-brand veil reveal-md-inline-block"><a href="{{ route('index')}}"><img width='316' height='57' class='img-responsive' src="{{asset('images/logo-dark.png')}}" alt=''/></a></div>
-                <div>
                   <address class="contact-info reveal-sm-inline-block text-left offset-none">
                     <div class="p unit unit-spacing-xs unit-horizontal">
-                      <div class="unit-left"><span class="icon icon-xs icon-circle icon-gray-light mdi mdi-phone text-java"></span></div>
-                      <div class="unit-body"><a href="callto:#" class="text-gray-darker">1-800-1234-567</a><br/><a href="callto:#" class="text-gray-darker">1-800-3214-654</a></div>
+                      <div class="unit-left">
+                      <span class="icon icon-xs icon-circle icon-gray-light mdi mdi-phone text-java"></span>
+                      </div>
+                      <div class="unit-body">
+                        <a href="callto:351239098747" class="text-gray-darker">Penelas +351 239 098747</a>
+                        <br/>
+                        <a href="callto:+351218454230" class="text-gray-darker">Lisboa +351 218 454230</a>
+                        <br/>
+                        <a href="callto:+351236027660" class="text-gray-darker">Pombal +351 236 027660</a>
+                        <!--
+                          Penelas +351 239 098747
+                          Lisboa +351 218 454230
+                          Pombal +351 236 027660
+                        -->
+                      </div>
                     </div>
                   </address>
 
-                  <address class="contact-info reveal-sm-inline-block text-left">
-                    <div class="p unit unit-horizontal unit-spacing-xs">
-                      <div class="unit-left"><span class="icon icon-xs icon-circle icon-gray-light mdi mdi-map-marker text-java"></span></div>
-                      <div class="unit-body"><a href="#" class="text-gray-darker">2130 Fulton Street San Diego<br/>CA 94117-1080 USA</a></div>
+                <div class="rd-navbar-brand veil reveal-md-inline-block"><a href="{{ route('index')}}"><img width='316' height='57' class='img-responsive' src="{{asset('images/logo-dark.png')}}" alt=''/></a>
+                </div>
+                  <address class="text-rigth">
+                    <div class="p unit unit-spacing-xs unit-horizontal">
+                      <div class="unit-left">
+                      <a target="_blank" href="https://www.facebook.com/Vita-et-Salus-1334579476558441/?fref=ts" class="icon fa fa-facebook icon-xs icon-circle icon-gray-light-2">
+                        
+                      </a>
+                      </div>
+                      <div class="unit-body">
+                          @include('complements/idiomaSelect')                 
+                      </div>
                     </div>
                   </address>
-                </div>
               </div>
+              <style type="text/css">
+                .rd-navbar-minimal.rd-navbar-fixed .rd-navbar-top-panel{
+                      overflow: initial!important; 
+                }
+                .rd-navbar-minimal.rd-navbar-fixed .rd-navbar-top-panel{
+                  right: 0px !important;
+                }
+              </style>
               <!-- RD Navbar Panel-->
               <div class="rd-navbar-panel">
                 <!-- RD Navbar Toggle-->

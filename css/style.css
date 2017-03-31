@@ -36669,7 +36669,7 @@ fieldset[disabled] .bg-primary .btn-java {
   right: 4px;
   top: 50px;
   background: #fff;
-  width: 250px;
+  width: 100%;
   padding: 20px;
   z-index: 17;
   overflow: hidden;
