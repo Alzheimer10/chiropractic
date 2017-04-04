@@ -6,11 +6,6 @@
         <!-- Main services-->
         <section class="section-98 section-sm-20">
           <div class="shell">
-            <h3>{!! trans('header.main.welcome.mainservices') !!}<!-- main services --></h3>
-            <hr class="divider divider-lg bg-primary">
-            <div class="offset-top-41 offset-md-top-60">
-              <p>{!! trans('header.main.welcome.text') !!}<!-- We provide high-quality chiropractic services for the whole family. --></p>
-            </div>
             <div class="range offset-top-60 text-md-left">
               <div class="cell-sm-6 cell-md-4">
                 <div class="service"><img src="images/pages/home-01-320x320.jpg" width="320" height="320" alt="" class="img-responsive"/><a href="{{ route('services.medica')}}" class="service-desc h6">{!! trans('header.main.submenu.services.1')!!}<!-- Chiropractic Care --></a>
@@ -165,19 +160,6 @@
               </div>
               <figcaption><a href="team-member.html" class="btn btn-block btn-rect text-md-left btn-java">view full profile</a></figcaption>
             </figure>
-          </div>
-        </section>
-        <!-- Call to action-->
-        <section class="rd-parallax section-98 section-sm-110">
-          <div data-speed="0.2" data-type="media" data-url="images/backgrounds/background-04-1920x890.jpg" class="rd-parallax-layer"></div>
-          <div data-speed="0" data-type="html" class="rd-parallax-layer section-98 section-sm-110 context-dark">
-            <div class="shell text-center">
-              <h2>{!! trans('header.main.welcome.parallax.1') !!}<!-- Wellness awaits you --></h2>
-              <p class="offset-top-30 text-gray-light">{!! trans('header.main.welcome.parallax.2') !!}<!-- Experience the top level of wellness and health services at Chiropractic! --><br class="veil reveal-md-block">{!! trans('header.main.welcome.parallax.3') !!} <!-- Our specialists know how to improve your health. -->
-              </p>
-              <div class="offset-top-30"><a href="{{@route('contacts')}}" class="btn btn-ellipse btn-java">
-              {!! trans('header.main.welcome.parallax.4') !!}<!-- free consultation --></a></div>
-            </div>
           </div>
         </section>
         <!-- Contacts-->

@@ -15,6 +15,7 @@ return [
       "internment" => "Internamento",
       "healthy" => "estadias-saudáveis",
       "formation" => "programas-de-formação",
-      "healthexpo" => "expo-saude"
+      "healthexpo" => "expo-saude",
+      "galery" => "galeria"
 	];
  ?>

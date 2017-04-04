@@ -18,7 +18,8 @@ return [
         [
             'home' => 'Inicio',
             'about' => 'QUEM SOMOS',
-            'services' => 'O QUE FAZEMOS – GERAL',
+            'services' => 'O QUE FAZEMOS',
+            'galery' => 'galeria',
             'contacts' => 'CONTATOS',
 
         ],

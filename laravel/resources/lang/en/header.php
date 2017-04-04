@@ -19,6 +19,7 @@ return [
             'home' => 'Home',
             'about' => 'About',
             'services' => 'Services',
+            'galery' => 'Galery',
             'contacts' => 'Contacts',
 
         ],

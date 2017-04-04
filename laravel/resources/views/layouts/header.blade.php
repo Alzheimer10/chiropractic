@@ -31,7 +31,7 @@
                   <address class="text-rigth">
                     <div class="p unit unit-spacing-xs unit-horizontal">
                       <div class="unit-left">
-                      <a target="_blank" href="https://www.facebook.com/Vita-et-Salus-1334579476558441/?fref=ts" class="icon fa fa-facebook icon-xs icon-circle icon-gray-light-2">
+                      <a target="_blank" href="https://www.facebook.com/medicinapreventiva.pt/?fref=ts" class="icon fa fa-facebook icon-xs icon-circle icon-gray-light-2">
                         
                       </a>
                       </div>
@@ -54,17 +54,17 @@
                 <!-- RD Navbar Toggle-->
                 <button data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
                 <!--Navbar Brand-->
-                <div class="rd-navbar-brand veil-md"><a href="index.html"><img width='316' height='57' class='img-responsive' src='images/logo-dark.png' alt=''/></a></div>
+                <div class="rd-navbar-brand veil-md"><a href="{{ route('index')}}"><img width='316' height='57' class='img-responsive' src='images/logo-dark.png' alt=''/></a></div>
                 <button data-rd-navbar-toggle=".rd-navbar, .rd-navbar-top-panel" class="rd-navbar-top-panel-toggle"><span></span></button>
               </div>
               <div class="rd-navbar-menu-wrap">
                 <div class="rd-navbar-nav-wrap">
                   <div class="rd-navbar-mobile-scroll">
                     <!--Navbar Brand Mobile-->
-                    <div class="rd-navbar-mobile-brand"><a href="{{ route('index')}}"><img width='316' height='57' class='img-responsive' src='images/logo-dark.png' alt=''/></a></div>
+                    <div class="rd-navbar-mobile-brand"><a href="{{ route('index')}}"><img width='316' height='57' class='img-responsive' src='images/logo-dark.jpeg' alt=''/></a></div>
                     <div class="form-search-wrap">
                       <!-- RD Search Form-->
-                      <form action="search-results.html" method="GET" class="form-search rd-search">
+                      <form action="" method="GET" class="form-search rd-search">
                         <div class="form-group">
                           <label for="rd-navbar-form-search-widget" class="form-label form-search-label form-label-sm">Search</label>
                           <input id="rd-navbar-form-search-widget" type="text" name="s" autocomplete="off" class="form-search-input form-control form-control-gray-lightest input-sm"/>
@@ -109,13 +109,16 @@
                           </li>
                         </ul>
                       </li>
+                      <li><a href="{{@route('galery')}}" ><span>{!! trans('header.main.menu.galery') !!}</span></a>
+                      </li>
                       <li><a href="{{@route('contacts')}}" ><span>{!! trans('header.main.menu.contacts') !!}</span></a>
+                      </li>
                     </ul>
                   </div>
                 </div>
                 <!--RD Navbar Search-->
                 <div class="rd-navbar-search"><a data-rd-navbar-toggle=".rd-navbar-menu-wrap,.rd-navbar-search" href="#" class="rd-navbar-search-toggle mdi"><span></span></a>
-                  <form action="search-results.html" data-search-live="rd-search-results-live" method="GET" class="rd-navbar-search-form search-form-icon-right rd-search">
+                  <form action="" data-search-live="rd-search-results-live" method="GET" class="rd-navbar-search-form search-form-icon-right rd-search">
                     <div class="form-group">
                       <label for="rd-navbar-search-form-input" class="form-label">{!! trans('header.main.search') !!}</label>
                       <input id="rd-navbar-search-form-input" type="text" name="s" autocomplete="off" class="rd-navbar-search-form-input form-control form-control-gray-lightest"/>

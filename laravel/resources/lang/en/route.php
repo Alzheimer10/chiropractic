@@ -15,6 +15,7 @@ return [
       "internment" => "internment",
       "healthy" => "healthy",
       "formation" => "formation",
-      "healthexpo" => "health-expo"
+      "healthexpo" => "health-expo",
+      "galery" => "galery"
 	];
  ?>

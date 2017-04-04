@@ -60,7 +60,7 @@
                         <h6>{!! trans('header.main.contacts.labels.1') !!}<!-- Socials --></h6>
                         <hr class="text-subline">
                                 <ul class="list-inline">
-                                  <li><a href="#" class="icon fa fa-facebook icon-xxs icon-circle icon-gray-light"></a></li>
+                                  <li><a href="https://www.facebook.com/medicinapreventiva.pt/?fref=ts" target="_blank" class="icon fa fa-facebook icon-xxs icon-circle icon-gray-light"></a></li>
                                 </ul>
                       </div>
                       <div class="offset-top-60">
@@ -73,28 +73,23 @@
                             </div>
                             <div class="unit-body">
                               <p class="text-gray-dark">Serra de Santa Maria, 3230-055<br>Espinhal PORTUGAL</p>
-                              <p class="text-gray-dark">Av. Fontes Pereira de Melo, nº31 - 5ºA, 1050-117 <br>Lisboa PORTUGAL</p>
-                              <p class="text-gray-dark">Quinta da Casinha, Lt. 2, Loja A 2 RCA3100-545<br>Pombal PORTUGAL</p>
                             </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="offset-top-60">
-                        <h6>{!! trans('header.main.contacts.labels.3') !!}<!-- OPENING hours --></h6>
-                        <hr class="text-subline">
-                        <div class="offset-top-20">
-                          <div class="unit unit-horizontal unit-spacing-xxs p">
                             <div class="unit-left">
-                              <div class="icon icon-xxs text-middle mdi mdi-calendar-clock text-primary"></div>
+                              <div class="icon icon-xxs text-middle mdi mdi-map-marker text-primary"></div>
+                            </div>
+                              <div class="unit-body">
+                              <p class="text-gray-dark">Av. Fontes Pereira de Melo, nº31 - 5ºA, 1050-117 <br>Lisboa PORTUGAL</p>
+                              </div>
+                              <div class="unit-left">
+                              <div class="icon icon-xxs text-middle mdi mdi-map-marker text-primary"></div>
                             </div>
                             <div class="unit-body">
-                              <div>Mon–Fri: 8:00am–6:00pm</div>
-                              <div>Sat: 9:00am–3:00pm</div>
-                              <div>Sun: 10:00am–2:00pm</div>
-                            </div>
+                              <p class="text-gray-dark">Quinta da Casinha, Lt. 2, Loja A 2 RCA3100-545<br>Pombal PORTUGAL</p>
+                            </div>    
                           </div>
                         </div>
                       </div>
+      
                       <div class="offset-top-60">
                         <h6>{!! trans('header.main.contacts.labels.4') !!}<!-- Phones --></h6>
                         <hr class="text-subline">

@@ -34,6 +34,10 @@ Route::group(
 	    return view('pages.services')->with('swiper', 'swiper.services');
 	})->name('services');
 
+	Route::get(LaravelLocalization::transRoute('route.galery'), function () {
+	    return view('pages.galery')->with('swiper', 'swiper.galery');
+	})->name('galery');
+
 	Route::get(LaravelLocalization::transRoute('route.privacity'), function () {
 	    return view('pages.privacity')->with('swiper', 'swiper.privacity');
 	})->name('privacity');
@@ -88,7 +92,4 @@ Route::group(
 	    return view('pages.services.healthexpo')->with('swiper', 'swiper.services');
 	})->name('services.healthexpo');
 	});
-
-
-	
 

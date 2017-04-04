@@ -7,8 +7,8 @@
                     <h2>{!! trans('header.main.index.slide1.title') !!}<br class="veil reveal-md-block">
                     {!! trans('header.main.index.slide1.subtitle') !!}
                     </h2>
-                    <h5 class="veil reveal-md-block">{!! trans('header.main.index.slide1.text1') !!}<br class="veil reveal-md-block">{!! trans('header.main.index.slide1.text2') !!}
-                    </h5><a href="{{@route('contacts')}}" class="btn btn-ellipse btn-java offset-top-24">{!! trans('header.main.index.slide1.appointment') !!}</a>
+                    <!-- <h5 class="veil reveal-md-block">{!! trans('header.main.index.slide1.text1') !!}<br class="veil reveal-md-block">{!! trans('header.main.index.slide1.text2') !!}
+                    </h5> -->
                   </div>
                 </div>
               </div>
@@ -19,8 +19,8 @@
                   <div class="shell bg-dark section-41 section-sm-98 section-md-bottom-167">
                     <h2>{!! trans('header.main.index.slide2.title') !!}<br class="veil reveal-md-block">{!! trans('header.main.index.slide2.subtitle') !!}
                     </h2>
-                    <h5 class="veil reveal-md-block">{!! trans('header.main.index.slide2.text1') !!}<br class="veil reveal-md-block">{!! trans('header.main.index.slide2.text2') !!}
-                    </h5><a href="{{@route('contacts')}}" class="btn btn-ellipse btn-java offset-top-24">{!! trans('header.main.index.slide2.appointment') !!}</a>
+                    <!-- <h5 class="veil reveal-md-block">{!! trans('header.main.index.slide2.text1') !!}<br class="veil reveal-md-block">{!! trans('header.main.index.slide2.text2') !!}
+                    </h5> -->
                   </div>
                 </div>
               </div>
@@ -31,8 +31,8 @@
                   <div class="shell bg-dark section-41 section-sm-98 section-md-bottom-167">
                     <h2>{!! trans('header.main.index.slide3.title') !!}<br class="veil reveal-md-block">{!! trans('header.main.index.slide3.subtitle') !!}
                     </h2>
-                    <h5 class="veil reveal-md-block">{!! trans('header.main.index.slide3.text1') !!}<br class="veil reveal-md-block">{!! trans('header.main.index.slide3.text2') !!}
-                    </h5><a href="{{@route('contacts')}}" class="btn btn-ellipse btn-java offset-top-24">{!! trans('header.main.index.slide3.appointment') !!}</a>
+                    <!-- <h5 class="veil reveal-md-block">{!! trans('header.main.index.slide3.text1') !!}<br class="veil reveal-md-block">{!! trans('header.main.index.slide3.text2') !!}
+                    </h5> -->
                   </div>
                 </div>
               </div>

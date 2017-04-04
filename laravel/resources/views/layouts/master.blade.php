@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="keywords" content="SANA design multipurpose template">
     <meta name="date" content="Dec 26">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon2.ico" type="image/x-icon">
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald%7CLato:400italic,400,700">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
@@ -39,24 +39,6 @@
     <script src="{{asset('js/script.js')}}"></script>
     <script src="{{asset('js/bootstrap-select.min.js')}}"></script>
     <script src="https://cdn.jsdelivr.net/vue.resource/1.2.1/vue-resource.min.js"></script>
-
-    <script>
-
-   var app7 =  new Vue({
-      el: '#app',
-      data:{
-          selected:''
-        },
-      methods: {
-    selecionado: function () {
-      window.location.href =  '/'+this.selected;
-       
-      }
-
-      }})
-
-    </script>
-
   </body>
 </html>
 

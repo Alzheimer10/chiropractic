@@ -15,6 +15,7 @@ return [
       "internment" => "internamiento",
       "healthy" => "mantenerse-saludable",
       "formation" => "programas-de-formacion",
-      "healthexpo" => "exposición-de-la-salud"
+      "healthexpo" => "exposición-de-la-salud",
+      "galery" => "galeria"
 	];
  ?>
