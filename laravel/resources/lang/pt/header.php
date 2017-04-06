@@ -19,13 +19,13 @@ return [
             'home' => 'Inicio',
             'about' => 'QUEM SOMOS',
             'services' => 'O QUE FAZEMOS',
-            'galery' => 'galeria',
-            'contacts' => 'CONTATOS',
+            'galery' => 'Galeria',
+            'contacts' => 'Contatos',
 
         ],
         'welcome' => ['mainservices' => 'PRINCIPAIS SERVIÇOS',
                       'text' => 'Nós fornecemos serviços de quiropraxia de alta qualidade para toda a família.', 
-                      'staff' => 'funcionários',
+                      'staff' => 'nossa equipe',
                       'testimonials'=>'TESTEMUNHOS',
                       'parallax' => ['1' => 'O bem-estar espera por você','2' => 'Experimente o nível mais alto de bem-estar e serviços de saúde no Chiropractic!','3'=>'Nossos especialistas sabem como melhorar sua saúde','4' => 'consulta gratuita'],
                       ]

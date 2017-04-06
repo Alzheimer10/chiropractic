@@ -10,7 +10,7 @@
                     <!-- Footer brand-->
                     <div class="footer-brand reveal-inline-block"><a href="{{ route('index')}}"><img width='316' height='57' class='img-responsive' src="{{asset('images/logo-dark.jpeg')}}" alt=''/></a></div>
                   </div>
-                  <div class="cell-xxs-6 cell-xs-6 cell-md-3 offset-top-55 offset-md-top-0 cell-md-push-3 text-md-right">
+                  <div class="cell-xxs-6 cell-xs-6 cell-md-3 offset-top-55 offset-md-top-0 cell-md-push-3 text-md-center">
                     <ul class="list-inline">
                       <li><a target="_blank" href="https://www.facebook.com/medicinapreventiva.pt/?fref=ts" class="icon fa fa-facebook icon-xxs icon-circle icon-gray-light-2"></a></li>
                     </ul>

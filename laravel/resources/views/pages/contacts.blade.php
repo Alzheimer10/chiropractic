@@ -60,7 +60,7 @@
                         <h6>{!! trans('header.main.contacts.labels.1') !!}<!-- Socials --></h6>
                         <hr class="text-subline">
                                 <ul class="list-inline">
-                                  <li><a href="https://www.facebook.com/medicinapreventiva.pt/?fref=ts" target="_blank" class="icon fa fa-facebook icon-xxs icon-circle icon-gray-light"></a></li>
+                                  <li><a href="https://www.facebook.com/medicinapreventiva.pt/?fref=ts" target="_blank" class="icon fa fa-facebook icon-xxs icon-circle icon-gray-light-2"></a></li>
                                 </ul>
                       </div>
                       <div class="offset-top-60">

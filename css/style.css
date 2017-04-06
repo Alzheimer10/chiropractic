@@ -388,7 +388,7 @@ th {
     page-break-inside: avoid;
   }
   img {
-    max-width: 100% !important;
+    max-width: 410px !important;
   }
   p,
   h2,
@@ -1813,7 +1813,7 @@ a.text-danger:focus {
 }
 
 .bg-primary {
-  background-color: #388E3C;
+  background-color: #03579b;
 }
 
 a.bg-primary:hover,
@@ -7876,8 +7876,8 @@ iframe {
 .shell-fluid {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .shell,
@@ -10797,8 +10797,8 @@ mark, .mark {
 }
 
 .bg-primary {
-  background: #388E3C;
-  fill: #388E3C;
+  background: #03579b;
+  fill: #03579b;
 }
 
 .bg-gray-base {
@@ -24347,11 +24347,11 @@ a.thumbnail:hover {
 }
 
 .thumbnail-josip.odd .thumbnail-desc {
-  background: #388E3C;
+  background: #03579b;
 }
 
 .thumbnail-josip:nth-child(even) .thumbnail-desc {
-  background: #3E9E42;
+  background: #03579b;
 }
 
 .thumbnail-josip .btn {
@@ -24365,7 +24365,7 @@ a.thumbnail:hover {
 }
 
 .thumbnail-josip .thumbnail-desc {
-  background: #388E3C;
+  background: #03579b;
   padding: 33px 10px;
   transition: .3s ease;
 }
@@ -24383,7 +24383,7 @@ a.thumbnail:hover {
 }
 
 .thumbnail-josip .btn-java:hover {
-  background: #388E3C;
+  background: #3b903b;
   border-color: #388E3C;
 }
 
@@ -25553,9 +25553,10 @@ a.icon {
 }
 
 .icon-gray-light-2 {
-  background: #e5e5e5;
-  color: #868686;
+  background: #03579b !important;
+  color: white !important;
 }
+
 
 .icon-shark-filled {
   background: linear-gradient(45deg, #191919 0%, #434445 100%);
@@ -33500,7 +33501,7 @@ fieldset[disabled] .bg-primary .btn-java {
 
 .service .service-desc {
   display: block;
-  background: #388E3C;
+  background: #03579b;
   max-width: 320px;
   margin-left: auto;
   margin-right: auto;
@@ -33532,7 +33533,7 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .service .service-desc:hover {
-  background: #0e969e;
+  background: #3b903b;
 }
 
 .service .service-desc:hover:after {
@@ -34594,7 +34595,7 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-minimal.rd-navbar-static .rd-navbar-nav > li.active, .rd-navbar-floated.rd-navbar-static .rd-navbar-nav > li.active, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-nav > li.active, .rd-navbar-minimal.rd-navbar-static .rd-navbar-nav > li.focus, .rd-navbar-floated.rd-navbar-static .rd-navbar-nav > li.focus, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-nav > li.focus, .rd-navbar-minimal.rd-navbar-static .rd-navbar-nav > li:hover, .rd-navbar-floated.rd-navbar-static .rd-navbar-nav > li:hover, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-nav > li:hover {
-  background: #01579B;
+  background: #3b903b;
 }
 
 .rd-navbar-minimal.rd-navbar-static .rd-navbar-nav > li > a, .rd-navbar-floated.rd-navbar-static .rd-navbar-nav > li > a, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-nav > li > a {
@@ -36801,7 +36802,7 @@ fieldset[disabled] .bg-primary .btn-java {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background: #388E3C;
+  background: #03579b;
   box-shadow: 0 3px 14px 0 rgba(0, 0, 0, 0.2);
   border-radius: 6px;
   max-width: 100%;
@@ -48104,7 +48105,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
   position: fixed;
   right: 15px;
   bottom: 15px;
-  background: #388E3C;
+  background: #03579b;
   overflow: hidden;
   z-index: 1;
   -webkit-transform: translateY(100px);
@@ -48118,7 +48119,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 
 .ui-to-top:hover {
   color: #fff;
-  background: #01579B;
+  background: #3b903b;
 }
 
 .ui-to-top.active {
@@ -49584,7 +49585,7 @@ table.fc-header:after {
 }
 
 .calendar-variant-2 .bg-primary {
-  background-color: #388E3C;
+  background-color: #03579b;
 }
 
 .calendar-variant-2 .bg-java {

@@ -25553,8 +25553,8 @@ a.icon {
 }
 
 .icon-gray-light-2 {
-  background: #e5e5e5;
-  color: #868686;
+  background: #01579B !important;
+  color: white !important;
 }
 
 .icon-shark-filled {

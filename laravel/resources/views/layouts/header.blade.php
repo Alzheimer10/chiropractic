@@ -6,27 +6,25 @@
               <div class="rd-navbar-top-panel">
 
                 <!--Navbar Brand-->
-                  <address class="contact-info reveal-sm-inline-block text-left offset-none">
-                    <div class="p unit unit-spacing-xs unit-horizontal">
-                      <div class="unit-left">
-                      <span class="icon icon-xs icon-circle icon-gray-light mdi mdi-phone text-java"></span>
-                      </div>
-                      <div class="unit-body">
-                        <a href="callto:351239098747" class="text-gray-darker">Penelas +351 239 098747</a>
-                        <br/>
-                        <a href="callto:+351218454230" class="text-gray-darker">Lisboa +351 218 454230</a>
-                        <br/>
-                        <a href="callto:+351236027660" class="text-gray-darker">Pombal +351 236 027660</a>
-                        <!--
-                          Penelas +351 239 098747
-                          Lisboa +351 218 454230
-                          Pombal +351 236 027660
-                        -->
-                      </div>
-                    </div>
-                  </address>
+                 <!--  <address class="contact-info reveal-sm-inline-block text-left offset-none">
+                   <div class="p unit unit-spacing-xs unit-horizontal">
+                     <div class="unit-left">
+                     <span class="icon icon-xs icon-circle icon-gray-light mdi mdi-phone text-java"></span>
+                     </div>
+                     <div class="unit-body">
+                       <a href="callto:351239098747" class="text-gray-darker">Penelas +351 239 098747</a>
+                       <br/>
+                       <a href="callto:+351218454230" class="text-gray-darker">Lisboa +351 218 454230</a>
+                       <br/>
+                       <a href="callto:+351236027660" class="text-gray-darker">Pombal +351 236 027660</a>
+                       Penelas +351 239 098747
+                         Lisboa +351 218 454230
+                         Pombal +351 236 027660
+                     </div>
+                   </div>
+                 </address> -->
 
-                <div class="rd-navbar-brand veil reveal-md-inline-block"><a href="{{ route('index')}}"><img width='316' height='57' class='img-responsive' src="{{asset('images/logo-dark.jpeg')}}" alt=''/></a>
+                <div class="rd-navbar-brand veil reveal-md-inline-block"><a href="{{ route('index')}}"><img width='350' height='57' class='img-responsive' src="{{asset('images/logo-dark.jpeg')}}" alt=''/></a>
                 </div>
                   <address class="text-rigth">
                     <div class="p unit unit-spacing-xs unit-horizontal">
@@ -54,14 +52,14 @@
                 <!-- RD Navbar Toggle-->
                 <button data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
                 <!--Navbar Brand-->
-                <div class="rd-navbar-brand veil-md"><a href="{{ route('index')}}"><img width='316' height='57' class='img-responsive' src='images/logo-dark.png' alt=''/></a></div>
+                <div class="rd-navbar-brand veil-md"><a href="{{ route('index')}}"><img width='316' height='57' class='img-responsive' src="{{asset('images/logo-dark.jpeg')}}" alt=''/></a></div>
                 <button data-rd-navbar-toggle=".rd-navbar, .rd-navbar-top-panel" class="rd-navbar-top-panel-toggle"><span></span></button>
               </div>
               <div class="rd-navbar-menu-wrap">
                 <div class="rd-navbar-nav-wrap">
                   <div class="rd-navbar-mobile-scroll">
                     <!--Navbar Brand Mobile-->
-                    <div class="rd-navbar-mobile-brand"><a href="{{ route('index')}}"><img width='316' height='57' class='img-responsive' src='images/logo-dark.jpeg' alt=''/></a></div>
+                    <div class="rd-navbar-mobile-brand"><a href="{{ route('index')}}"><img width='316' height='57' class='img-responsive' src="{{asset('images/logo-dark.jpeg')}}" alt=''/></a></div>
                     <div class="form-search-wrap">
                       <!-- RD Search Form-->
                       <form action="" method="GET" class="form-search rd-search">
