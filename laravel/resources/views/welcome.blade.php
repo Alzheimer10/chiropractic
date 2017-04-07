@@ -130,8 +130,6 @@
               </div>
               <figcaption><a href="team-member.html" class="btn btn-block btn-rect text-md-left btn-java">view full profile</a></figcaption>
             </figure>
-            </div>
-            <div class="reveal-md-flex range-xs-center">
             <!-- Thumbnail Josip-->
             <figure class="thumbnail-josip thumbnail-big offset-top-41 offset-md-top-0"><a href="team-member.html"><img width="384" height="410" src="images/pages/ourteam/ourteam-02.jpg" alt=""/></a>
               <div class="thumbnail-desc">
@@ -161,75 +159,6 @@
               <div class="thumbnail-desc">
                 <h5 class="thumbnail-josip-title text-bold text-white">Katherine Wong</h5>
                 <p class="veil reveal-md-block text-italic text-white offset-top-0">Front Desk Coordinator</p>
-              </div>
-              <figcaption><a href="team-member.html" class="btn btn-block btn-rect text-md-left btn-java">view full profile</a></figcaption>
-            </figure>
-          </div>
-          <div class="reveal-md-flex range-xs-center">
-            <!-- Thumbnail Josip-->
-            <figure class="thumbnail-josip thumbnail-big odd"><a href="team-member.html"><img width="384" height="410" src="images/pages/ourteam/ourteam-06.jpg" alt=""/></a>
-              <div class="thumbnail-desc">
-                <h5 class="thumbnail-josip-title text-bold text-white">Scott Riley</h5>
-                <p class="veil reveal-md-block text-italic text-white offset-top-0">Chief Medical Officer</p>
-              </div>
-              <figcaption><a href="team-member.html" class="btn btn-block btn-rect text-md-left btn-java">view full profile</a></figcaption>
-            </figure>
-            <!-- Thumbnail Josip-->
-            <figure class="thumbnail-josip thumbnail-big offset-top-41 offset-md-top-0"><a href="team-member.html"><img width="384" height="410" src="images/pages/ourteam/ourteam-07.jpg" alt=""/></a>
-              <div class="thumbnail-desc">
-                <h5 class="thumbnail-josip-title text-bold text-white">Johnny Fowler</h5>
-                <p class="veil reveal-md-block text-italic text-white offset-top-0">Chiropractor</p>
-              </div>
-              <figcaption><a href="team-member.html" class="btn btn-block btn-rect text-md-left btn-java">view full profile</a></figcaption>
-            </figure>
-            <!-- Thumbnail Josip-->
-            <figure class="thumbnail-josip thumbnail-big offset-top-41 offset-md-top-0 odd"><a href="team-member.html"><img width="384" height="410" src="images/pages/ourteam/ourteam-08.jpg" alt=""/></a>
-              <div class="thumbnail-desc">
-                <h5 class="thumbnail-josip-title text-bold text-white">Eric Snyder</h5>
-                <p class="veil reveal-md-block text-italic text-white offset-top-0">Clinical Chiropractic Assistant</p>
-              </div>
-              <figcaption><a href="team-member.html" class="btn btn-block btn-rect text-md-left btn-java">view full profile</a></figcaption>
-            </figure>
-            <!-- Thumbnail Josip-->
-            <figure class="thumbnail-josip thumbnail-big offset-top-41 offset-md-top-0"><a href="team-member.html"><img width="384" height="410" src="images/pages/ourteam/ourteam-09.jpg" alt=""/></a>
-              <div class="thumbnail-desc">
-                <h5 class="thumbnail-josip-title text-bold text-white">Martha Schmidt</h5>
-                <p class="veil reveal-md-block text-italic text-white offset-top-0">Licensed Massage Therapist</p>
-              </div>
-              <figcaption><a href="team-member.html" class="btn btn-block btn-rect text-md-left btn-java">view full profile</a></figcaption>
-            </figure>
-            <!-- Thumbnail Josip-->
-          </div>
-          <div class="reveal-md-flex range-xs-center">
-            
-            <figure class="thumbnail-josip thumbnail-big odd"><a href="team-member.html"><img width="384" height="410" src="images/pages/ourteam/ourteam-10.jpg" alt=""/></a>
-              <div class="thumbnail-desc">
-                <h5 class="thumbnail-josip-title text-bold text-white">Scott Riley</h5>
-                <p class="veil reveal-md-block text-italic text-white offset-top-0">Chief Medical Officer</p>
-              </div>
-              <figcaption><a href="team-member.html" class="btn btn-block btn-rect text-md-left btn-java">view full profile</a></figcaption>
-            </figure>
-            <!-- Thumbnail Josip-->
-            <figure class="thumbnail-josip thumbnail-big odd"><a href="team-member.html"><img class="thumbnail zoom" width="384" height="410" src="images/pages/ourteam/ourteam-11.jpg" alt=""/></a>
-              <div class="thumbnail-desc">
-                <h5 class="thumbnail-josip-title text-bold text-white">Scott Riley</h5>
-                <p class="veil reveal-md-block text-italic text-white offset-top-0">Chief Medical Officer</p>
-              </div>
-              <figcaption><a href="team-member.html" class="btn btn-block btn-rect text-md-left btn-java">view full profile</a></figcaption>
-            </figure>
-            <!-- Thumbnail Josip-->
-            <figure class="thumbnail-josip thumbnail-big offset-top-41 offset-md-top-0 odd"><a href="team-member.html"><img width="384" height="410" src="images/pages/ourteam/ourteam-12.jpg" alt=""/></a>
-              <div class="thumbnail-desc">
-                <h5 class="thumbnail-josip-title text-bold text-white">Eric Snyder</h5>
-                <p class="veil reveal-md-block text-italic text-white offset-top-0">Clinical Chiropractic Assistant</p>
-              </div>
-              <figcaption><a href="team-member.html" class="btn btn-block btn-rect text-md-left btn-java">view full profile</a></figcaption>
-            </figure>
-            <!-- Thumbnail Josip-->
-            <figure class="thumbnail-josip thumbnail-big offset-top-41 offset-md-top-0"><a href="team-member.html"><img width="384" height="410" src="images/pages/ourteam/ourteam-13.jpg" alt=""/></a>
-              <div class="thumbnail-desc">
-                <h5 class="thumbnail-josip-title text-bold text-white">Martha Schmidt</h5>
-                <p class="veil reveal-md-block text-italic text-white offset-top-0">Licensed Massage Therapist</p>
               </div>
               <figcaption><a href="team-member.html" class="btn btn-block btn-rect text-md-left btn-java">view full profile</a></figcaption>
             </figure>

@@ -5,6 +5,8 @@
 @section('content')
 <section class="section-98 section-sm-20">
           <div class="shell">
+          <h3>{!! trans('header.main.menu.galery') !!}<!-- Testimonials --></h3>
+            <hr class="divider divider-lg bg-primary">
             <div class="range offset-top-60 text-md-left">
 
               <div class="cell-sm-6 cell-md-4 ">

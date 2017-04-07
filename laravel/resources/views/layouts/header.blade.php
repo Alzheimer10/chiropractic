@@ -24,7 +24,7 @@
                    </div>
                  </address> -->
 
-                <div class="rd-navbar-brand veil reveal-md-inline-block"><a href="{{ route('index')}}"><img width='350' height='57' class='img-responsive' src="{{asset('images/logo-dark.jpeg')}}" alt=''/></a>
+                <div class="rd-navbar-brand veil reveal-md-inline-block"><a href="{{ route('index')}}"><img width='370' height='70' class='img-responsive' src="{{asset('images/logo-dark.jpeg')}}" alt=''/></a>
                 </div>
                   <address class="text-rigth">
                     <div class="p unit unit-spacing-xs unit-horizontal">

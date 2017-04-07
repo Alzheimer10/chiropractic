@@ -61,77 +61,76 @@ return [
 
           |{2}Foram realizados inúmeros cursos de culinária vegetariana assim como outros programas de saúde entre os quais destacamos o Programa de Ajuda na Recuperação da Depressão sem internamento, realizado em parceria com a AIT - Associação Internacional de Temperança. A Associação Portuguesa de Medicina Preventiva foi um parceiro da AIT na realização de inúmeras EXPO SAÚDE em Portugal. 
 
-          Expansão para Penela -  2008 / presente
+          |{3}Expansão para Penela -  2008 / presente
 
-          |{3}Desde cedo surgiu a necessidade de um novo espaço em que se ajudasse os doentes a porem em prática os princípios promovidos nas consultas médicas e de psicologia. Foi então que se deu a expansão para a Vila de Espinhal, em Penela com a criação do Centro de Vida Saudável VitaSalus®. 
+          |{4}Desde cedo surgiu a necessidade de um novo espaço em que se ajudasse os doentes a porem em prática os princípios promovidos nas consultas médicas e de psicologia. Foi então que se deu a expansão para a Vila de Espinhal, em Penela com a criação do Centro de Vida Saudável VitaSalus®. 
 
-          |{4}As obras de restauração e adaptação da antiga propriedade conhecida como “Obras do Dr Bacalhau” localizada na Serra de Santa Maria, no Concelho de Penela,  tiveram início em 2008. Nelas, já participaram com o seu trabalho ou monetariamente centenas de voluntários e hoje, mais de 20 pessoas ali vivem e trabalham para o servir
+          |{5}As obras de restauração e adaptação da antiga propriedade conhecida como “Obras do Dr Bacalhau” localizada na Serra de Santa Maria, no Concelho de Penela,  tiveram início em 2008. Nelas, já participaram com o seu trabalho ou monetariamente centenas de voluntários e hoje, mais de 20 pessoas ali vivem e trabalham para o servir
           ',
           'about3' => '{1}
           O modelo de governação da Associação Portuguesa de Medicina Preventiva assenta na acção de três grupos de associados que compõem os corpos sociais da Associação:
           
-          |{2} 
-           1)Assembleia Geral<br> 
-           2)Conselho Fiscal<br>
-           3)Direcção
-          |{3}As Assembleias Gerais ordinárias da Associação têm uma periodicidade anual e os associados eleitos para servir nos corpos sociais são mandatados para o fazer no período entre as Assembleias Gerais ordinárias.
+          |{2}Assembleia Geral 
+          |{3}Conselho Fiscal
+          |{4}Direcção
+          |{5}As Assembleias Gerais ordinárias da Associação têm uma periodicidade anual e os associados eleitos para servir nos corpos sociais são mandatados para o fazer no período entre as Assembleias Gerais ordinárias.
            
           
-          |{4}A Direcção da Associação é presentemente composta pelos seguintes sócios efectivos:| 
+          |{6}A Direcção da Associação é presentemente composta pelos seguintes sócios efectivos: 
            
           
-          |{5}Viriato Emanuel Ferreira, médico (Presidente)
-          Gisela Freire Pinheiro, técnica de laboratório (Secretária)
-          José Almeida, administrativo na área da contabilidade (Tesoureiro)|
+          |{7}Viriato Emanuel Ferreira, médico (Presidente)
+
+          |{8}Gisela Freire Pinheiro, técnica de laboratório (Secretária)
+          |{9}José Almeida, administrativo na área da contabilidade (Tesoureiro)|
 
           ',
           'medica' => '{1}Fruto de anos de experiência e com resultados comprovados, a nossa prática clínica tem como objectivo a promoção da saúde integral. Focamos a nossa atenção na relação entre hábitos de vida (alimentação, actividade física etc) e a saúde. 
 
-           |<h4>Temos um serviço de consultas de clínica geral com enfâse em hábitos que promovem uma vida saudável e sua influência na prevenção e no tratamento de doenças tais como: </h4><br>
+           |{2}Temos um serviço de consultas de clínica geral com enfâse em hábitos que promovem uma vida saudável e sua influência na prevenção e no tratamento de doenças tais como:
             
-           |{3}
-            doenças cardiovasculares e hipertensão<br>
-            excesso de peso e obesidade<br>
-            diabetes<br>
-            colesterol e/ou triglicéridos elevados<br>
-            cancro<br>
-            doenças ósseas e musculares<br>
-            ansiedade crónica<br>
-            depressão<br>
-            insónia<br>
-            tabagismo e alcoolismo<br>
-            doenças respiratórias (bronquite, asma, sinusite e rinite alérgica)<br>
-            doenças da pele (psoríase, eczemas, alergias e dermatites)<br>
-            doenças auto-imunes tais como lupus, artrite reumatóide, esclerose múltipla.<br>
-            problemas digestivos (gastrite, refluxo gastro-esofágico, obstipação e indigestão)<br>
-            doenças da tireóide (hipo e hipertireoidismo)<br>
-            doenças da mulher (cólicas menstruais, ovários policísticos e sintomas da menopausa)<br>
+           |{3}doenças cardiovasculares e hipertensão
+           |{4}excesso de peso e obesidade
+           |{5}diabetes
+           |{6} colesterol e/ou triglicéridos elevados
+           |{7}cancro
+           |{8} doenças ósseas e musculares
+           |{9} ansiedade crónica
+           |{10}depressão
+           |{11} insónia
+           |{12} tabagismo e alcoolismo
+           |{13} doenças respiratórias (bronquite, asma, sinusite e rinite alérgica)
+           |{14} doenças da pele (psoríase, eczemas, alergias e dermatites)
+           |{15} doenças auto-imunes tais como lupus, artrite reumatóide, esclerose múltipla.
+           |{16} problemas digestivos (gastrite, refluxo gastro-esofágico, obstipação e indigestão)
+           |{17} doenças da tireóide (hipo e hipertireoidismo)
+           |{18} doenças da mulher (cólicas menstruais, ovários policísticos e sintomas da menopausa)
  
-          |{4}<h4>Locais de consulta:</h4><br>
+          |{19}Locais de consulta:
  
-          1)Espinhal – Penela  Centro de Vida Saudável VitaSalus<br>  
-          2)Pombal – Clínica Médica Dentária VitaSalus<br>
-          3)Lisboa – Consultório Médico na Picoas Medical <br>
+          |{20}Espinhal – Penela  Centro de Vida Saudável VitaSalus  
+          |{21}Pombal – Clínica Médica Dentária VitaSalus
+          |{22}Lisboa – Consultório Médico na Picoas Medical
           ',
           'psychology' =>'
 A doença mental é cada vez mais frequente em Portugal e a depressão é uma das doenças mais comuns nesta área. Acompanhamento profissional com uma abordagem holística do indivíduo com o propósito de auxiliar a lidar com  problemas de saúde emocional e mental ou simplesmente as circunstâncias negativas da vida. Estão disponíveis consultas individuais de acompanhamento de adultos, crianças e  jovens assim como terapia de casais e familiar.
 
-            |{2}<h4>Patologias frequentemente abordadas pelos profissionais da APMP:</h4><br>
+            |{2}Patologias frequentemente abordadas pelos profissionais da APMP:
 
-            Depressão<br>
-            Ansiedade<br>
-            Dor crónica<br>
-            Problemas de relacionamentos interpessoais<br> 
-            Disfunções alimentares<br>
-            Dificuldades de aprendizagem<br>
-            Fobias<br>
-            Problemas de auto estima<br>
+            |{3}Depressão
+            |{4}Ansiedade
+            |{5}Dor crónica
+            |{6}Problemas de relacionamentos interpessoais 
+            |{7}Disfunções alimentares
+            |{8}Dificuldades de aprendizagem
+            |{9}Fobias
+            |{10}Problemas de auto estima
 
 
-            |{3}<h4>Locais de consulta:</h4><br>
+            |{11}Locais de consulta:
  
-            1)      Espinhal – Penela  Centro de Vida Saudável VitaSalus<br> 
-            2)      Lisboa – Consultório Médico na Picoas Medical <br>',
+            |{12}Espinhal – Penela  Centro de Vida Saudável VitaSalus 
+            |{13}Lisboa – Consultório Médico na Picoas Medical ',
 
           'dental' => '{1}30 anos a criar sorrisos! 
 
@@ -139,173 +138,179 @@ A doença mental é cada vez mais frequente em Portugal e a depressão é uma da
 
               |{3}Uma alimentação saudável promove uma boa saúde oral.  A equipa da Clínica Médica-Dentária VitaSalus ajudá-lo(a)-á a abraçar hábitos de vida mais saudáveis.
 
-              |{4}Local de consultas:<br>  
+              |{4}Local de consultas: 
 
-              Pombal – Clínica Médica Dentária VitaSalus
+              |{5}Pombal – Clínica Médica Dentária VitaSalus
 ',
-          'newStart' => '{1}<h5>Programa NEWSTART®</h5><br>
-          O que fazemos influencia o que somos! Soa-lhe a algo familiar? Muitas doenças têm a sua origem em hábitos de vida tais como uma alimentação incorreta, o sedentarismo e a presença frequente de sentimentos de ansiedade.
+          'newStart' => '{1}Programa NEWSTART®
+             |{32}O que fazemos influencia o que somos! Soa-lhe a algo familiar? Muitas doenças têm a sua origem em hábitos de vida tais como uma alimentação incorreta, o sedentarismo e a presença frequente de sentimentos de ansiedade.
 
-            |{2}O programa NEWSTART© tem a duração de 8 ou 10 dias e foi elaborado por profissionais de saúde com o objetivo de proporcionar aos participantes, sob orientação clínica, uma excelente oportunidade para renovarem a sua saúde, através da adopção de 8 princípios de vida importantes tais como uma boa alimentação, atividade física adequada, água, luz solar, descanso, entre outros.<br>
+            |{2}O programa NEWSTART© tem a duração de 8 ou 10 dias e foi elaborado por profissionais de saúde com o objetivo de proporcionar aos participantes, sob orientação clínica, uma excelente oportunidade para renovarem a sua saúde, através da adopção de 8 princípios de vida importantes tais como uma boa alimentação, atividade física adequada, água, luz solar, descanso, entre outros.
   
-              |{3}<h5>Hábitos de vida saudável são de especial importância na prevenção e tratamento de doenças tais como: </h5><br>
+              |{3}Hábitos de vida saudável são de especial importância na prevenção e tratamento de doenças tais como:
           
-              Excesso de peso ou obesidade<br>
+              |{4}Excesso de peso ou obesidade
           
-              Diabetes<br>
+              |{5}Diabetes
           
-              Hipertensão arterial<br>
+              |{6}Hipertensão arterial
           
-              Colesterol e/ou triglicerídeos elevados<br>
+              |{7}Colesterol e/ou triglicerídeos elevados
           
-              Processos de recuperação cardiovasculares (avaliado caso a caso)<br>
+              |{8}Processos de recuperação cardiovasculares (avaliado caso a caso)
           
-              Fibromialgia<br>
+              |{9}Fibromialgia
           
-              Artroses<br>
+              |{10}Artroses
           
-              Cancro<br>
+              |{11}Cancro
           
-              Tabagismo<br>
+              |{12}Tabagismo
            
-              Doenças respiratórias<br>
+              |{13}Doenças respiratórias
           
-              Doenças auto-imunes<br>
+              |{14}Doenças auto-imunes
            
-              Doenças do aparelho digestivo<br>
+              |{15}Doenças do aparelho digestivo
           
-             Doenças da tireóide<br>
+              |{16}Doenças da tireóide
           
-             Doenças da mulher<br>
+              |{17}Doenças da mulher
 
 
-            |{4}<h5>Uma equipa multidisciplinar acompanhá-lo(a)-á durante o programa que terá a duração de 8 ou 10 dias, dependendo da época do ano em que se realiza. O programa inclui:<h5><br>
+            |{18}Uma equipa multidisciplinar acompanhá-lo(a)-á durante o programa que terá a duração de 8 ou 10 dias, dependendo da época do ano em que se realiza. O programa inclui:
 
-            <h6>Consultas médicas</h6> <br>
-             Palestras sobre temas de saúde<br> 
+            |{19}Consultas médicas
+            |{20}Palestras sobre temas de saúde 
 
-             Curso de introdução à Nutrição e à Culinária Vegetariana (prático-teórico)<br>
+            |{21}Curso de introdução à Nutrição e à Culinária Vegetariana (prático-teórico)
 
-             Programa de exercício físico e hidroginástica<br>
+            |{22}Programa de exercício físico e hidroginástica
 
-            Passeios pela natureza<br>
+            |{23}Passeios pela natureza
 
-            Terapia ocupacional<br>
+            |{24}Terapia ocupacional
 
-            Tratamentos com água<br>
+            |{25}Tratamentos com água
 
-            Massagem<br>
+            |{26}Massagem
 
-            Descanso / repouso<br>
+            |{27}Descanso / repouso
 
-            Aconselhamento espiritual se desejado<br>
+            |{28}Aconselhamento espiritual se desejado
 
-            Esperamos por si no programa NEWSTART©<br>
+            |{29}Esperamos por si no programa NEWSTART©
 
-           Local:  O Centro de Vida Saudável VitaSalus®, em ambiente serrano, calmo e natural no Espinhal/Penela proporciona o espaço ideal para a realização de todas as atividades deste programa.',
-
-
-
-           'depresion'=>'|{1}<h5>Programa “Ajuda na Recuperação da Depressão e Ansiedade - 10 dias para recomeçar a viver”</h5><br>
+           |{30}Local:  
+           |{31}O Centro de Vida Saudável VitaSalus®, em ambiente serrano, calmo e natural no Espinhal/Penela proporciona o espaço ideal para a realização de todas as atividades deste programa.',
 
 
-          Pesquisas recentes mostram que os problemas de saúde mental são a principal causa de incapacidade e uma das principais causas de doença e morte prematura em todo o mundo.<br>
 
-          A depressão é o transtorno psicológico mais comum, afectando mais de 120 milhões de pessoas a nível mundial. Portugal é um dos países com o número mais elevado de pessoas que sofrem desta doença.<br>  
+           'depresion'=>'|{1}Programa “Ajuda na Recuperação da Depressão e Ansiedade - 10 dias para recomeçar a viver”
 
 
-         Para fazer face à crescente necessidade de apoio a pessoas que sofrem de depressão, foi desenvolvido um programa multidisciplinar que integra a saúde física, mental, social e espiritual, na ajuda à recuperação da depressão e ansiedade.  O programa tem a duração de 10 dias e inclui: 
+          |{2}Pesquisas recentes mostram que os problemas de saúde mental são a principal causa de incapacidade e uma das principais causas de doença e morte prematura em todo o mundo.<br>
 
-         |{2}<h5>Consultas médicas e de psicologia clínica </h5><br> 
+          |{3}A depressão é o transtorno psicológico mais comum, afectando mais de 120 milhões de pessoas a nível mundial. Portugal é um dos países com o número mais elevado de pessoas que sofrem desta doença.<br>  
 
-         Palestras que abordam desde o conceito e tratamento da doença mental, até formas de lidar com o problema e com os preconceitos a ela associados, assim como orientações para melhorar a qualidade de vida através da aquisição de novos hábitos de vida<br> 
 
-          Terapia em grupo <br>
+         |{4}Para fazer face à crescente necessidade de apoio a pessoas que sofrem de depressão, foi desenvolvido um programa multidisciplinar que integra a saúde física, mental, social e espiritual, na ajuda à recuperação da depressão e ansiedade.  O programa tem a duração de 10 dias e inclui: 
 
-          Terapia individual<br>
+         |{5}Consultas médicas e de psicologia clínica 
 
-         Programa de exercício físico<br>
+         |{6}Palestras que abordam desde o conceito e tratamento da doença mental, até formas de lidar com o problema e com os preconceitos a ela associados, assim como orientações para melhorar a qualidade de vida através da aquisição de novos hábitos de vida 
 
-          Passeios na natureza<br>
+          |{7}Terapia em grupo
 
-          Terapia ocupacional <br>
+          |{8}Terapia individual
 
-          Tratamentos com água<br>
+         |{6}Programa de exercício físico
 
-          Massagem<br>
+          |{10}Passeios na natureza
 
-          Aconselhamento espiritual se desejado<br>
+          |{11}Terapia ocupacional 
 
-          Local:  A localização do Centro de Vida Saudável VitaSalus®, em ambiente serrano, calmo e natural, no Espinhal, Penela, proporciona o espaço ideal 
+          |{12}Tratamentos com água
+
+          |{13}Massagem
+
+          |{14}Aconselhamento espiritual se desejado
+
+          |{15}Local: 
+          |{16}A localização do Centro de Vida Saudável VitaSalus®, em ambiente serrano, calmo e natural, no Espinhal, Penela, proporciona o espaço ideal 
           para a realização de todas as atividades deste programa.
 ',
-          'internment' => '{1}<h5>Programa Personalizado de Internamento</h5>br
+          'internment' => '{1}Programa Personalizado de Internamento
 
-                         Concebido como uma alternativa aos programas de grupo  NEWSTART© e Ajuda na Recuperação da Depressão e Ansiedade, o Programa Personalizado de Internamento contribuirá para que desfrute de melhor saúde física, mental e espiritual. Adaptado a cada situação clínica, os programas têm uma duração variável. Nele têm participado pessoas com variados problemas de saúde, sendo os mais frequentes, doentes oncológicos os quais pretendem melhorar os seus hábitos de vida e assim, melhorar a qualidade de vida e reduzir o risco de recidivas. 
+                         |{13}Concebido como uma alternativa aos programas de grupo  NEWSTART© e Ajuda na Recuperação da Depressão e Ansiedade, o Programa Personalizado de Internamento contribuirá para que desfrute de melhor saúde física, mental e espiritual. Adaptado a cada situação clínica, os programas têm uma duração variável. Nele têm participado pessoas com variados problemas de saúde, sendo os mais frequentes, doentes oncológicos os quais pretendem melhorar os seus hábitos de vida e assim, melhorar a qualidade de vida e reduzir o risco de recidivas. 
 
-                          |{2}Inclui:<br>
+                          |{2}Inclui:
 
-                          Avaliação médica inicial e consultas de acompanhamento durante a estadia.<br>
+                          |{3}Avaliação médica inicial e consultas de acompanhamento durante a estadia.
 
-                         Avaliação psicológica e consultas de acompanhamento durante a estadia se necessário<br>
+                         |{4}Avaliação psicológica e consultas de acompanhamento durante a estadia se necessário
 
-                         Avaliação física e sessões de exercício físico moderado e adequado à idade e estado de saúde<br>
+                         |{5}Avaliação física e sessões de exercício físico moderado e adequado à idade e estado de saúde
 
-                        Alimentação adequada ao problema de saúde do paciente<br>
+                        |{6}Alimentação adequada ao problema de saúde do paciente
 
-                         Atividades lúdicas, como jardinagem, leitura e culinária<br>
+                         |{7}Atividades lúdicas, como jardinagem, leitura e culinária
 
-                         Massagem<br>
+                         |{8}Massagem
 
-                        Hidroterapia, se clinicamente indicada <br>
+                        |{9}Hidroterapia, se clinicamente indicada 
 
-                        Passeios na natureza<br>
+                        |{10}Passeios na natureza
 
-                        Descanso/repouso<br>
-
-                       Aconselhamento espiritual quando desejado',
-          'healthy' => '{1}<h5>Estadias Saudáveis</h5><br>
+                        |{11}Descanso/repouso
+                       |{12}Aconselhamento espiritual quando desejado
+                       ',
+          'healthy' => '{1}
           Já sonhou em passar um fim-de-semana saudável ou umas férias em que o descanso do corpo e da mente seria acompanhado de uma alimentação vegetariana equilibrada, tudo isto num ambiente natural? Só, ou acompanhado, o Centro de Vida Saudável VitaSalus é o lugar ideal para concretizar esse sonho. O ambiente serrano, a amizade genuína da equipa e a presença de Deus contribuirão para que tal momento contribua para que desfrute de mais saúde e reganhe a esperança.<br>
 
                       |{2}Situado no Concelho de Penela, a poucos quilómetros da serra da Lousã e perto da bela cidade de Coimbra, este local oferece uma grande diversidade turística. Visite as cascatas da Pedra da Ferida, as Fragas de S. Simão, ou faça passeios na serra da Lousã. Aproveite para passear pelas históricas aldeias do xisto ou dar um mergulho na praia fluvial da Louçainha, muito próximo da propriedade.',
-          'formation'=>'{1}<h5>Personal Training e outros programas de exercício físico</h5><br>
+          'formation'=>'{1}Personal Training e outros programas de exercício físico
 
-                 MOV T  para que desfrutes de mais saúde!  Uma empresa Start-Up no Conselho de Penela está a contribuir para a melhoria da saúde da população do Conselho e ajudá-lo(a)-á a colocar o exercício como uma prioridade na sua vida. Esta equipa está disponível para ajudá-lo(a) a mexer-se mais… pela sua saúde!
+                 |{2}MOV T  para que desfrutes de mais saúde!  Uma empresa Start-Up no Conselho de Penela está a contribuir para a melhoria da saúde da população do Conselho e ajudá-lo(a)-á a colocar o exercício como uma prioridade na sua vida. Esta equipa está disponível para ajudá-lo(a) a mexer-se mais… pela sua saúde!
 
  
-                  |{2}<h5>Curso de Culinária Vegetariana</h5>
+                 |{3}Curso de Culinária Vegetariana
 
-                 O que são proteínas? Será que consigo desfrutar de uma boa saúde se for vegetariano? E as crianças? Como posso cozinhar com tofu? Será que a feijoada é um bom alimento? Como posso preparar uma sobremesa mais saudável? Que combinações de alimentos promovem o bem-estar?<br>
+                 |{4}¿O que são proteínas?<br>¿Será que consigo desfrutar de uma boa saúde se for vegetariano?<br> ¿E as crianças? <br>¿Como posso cozinhar com tofu?<br> ¿Será que a feijoada é um bom alimento?<br> ¿Como posso preparar uma sobremesa mais saudável? <br>¿Que combinações de alimentos promovem o bem-estar?
 
-                 Estas e muitas outras perguntas são respondidas no Curso de Introdução à Nutrição e à Culinária Vegetariana. Médicos e profissionais de cozinha ensinar-lhe-ão a preparar pratos deliciosos e saudáveis. Venha aprender mais!<br>
+                 |{5}Estas e muitas outras perguntas são respondidas no Curso de Introdução à Nutrição e à Culinária Vegetariana. Médicos e profissionais de cozinha ensinar-lhe-ão a preparar pratos deliciosos e saudáveis. Venha aprender mais!
 
-                Duração do curso: 12 horas (2 a 2,5 horas por sessão) em horário pós-laboral ou em dois Domingos consecutivos.<br>
+                |{6}Duração do curso:
+                |{7} 12 horas (2 a 2,5 horas por sessão) em horário pós-laboral ou em dois Domingos consecutivos.
 
-               Locais:<b> 
-               1) Espinhal – Penela  Centro de Vida Saudável VitaSalus  (LINK para contactos)
-               2)  Lisboa – Consultório Médico na Picoas Medical (LINK para contactos)<br>
+               |{8}Locais: 
+               |{9}Espinhal – Penela  Centro de Vida Saudável VitaSalus 
+               |{10}Lisboa – Consultório Médico na Picoas Medical 
 
-                |{3} <h5> Curso de Promoção da Saúde e Desenvolvimento Espiritual</h5> <br> 
+                |{11}Curso de Promoção da Saúde e Desenvolvimento Espiritual 
 
-                     Este programa educativo residencial proporciona formação em hábitos de vida saudável e promove o desenvolvimento espiritual dos estudantes, numa  perspectiva Cristã, baseando-se na Bíblia para uma melhor compreensão da vida, fé e saúde. Os estudantes ficarão aptos para servir as suas famílias e comunidades através de uma abordagem holística, interligando a saúde e a espiritualidade.<br>
+                    |{12} Este programa educativo residencial proporciona formação em hábitos de vida saudável e promove o desenvolvimento espiritual dos estudantes, numa  perspectiva Cristã, baseando-se na Bíblia para uma melhor compreensão da vida, fé e saúde. Os estudantes ficarão aptos para servir as suas famílias e comunidades através de uma abordagem holística, interligando a saúde e a espiritualidade.<br>
 
-                    <h5> Algumas disciplinas do curso: </h5><br>
+                   |{13} Algumas disciplinas do curso:
 
-                      1.     Anatomia e Fisiologia<br>
-                      2.     Princípios de Nutrição<br>
-                      3.     Doenças comuns e sua prevenção<br> 
-                      4.    Organização de: Expos Saúde, Expos Saúde Criança, Clubes de Saúde,  e    programas NEWSTART <br>
-                      5.     Saúde mental com enfâse na depressão<br>
-                      6.     Espiritualidade e saúde, do ponto de vista bíblico<br>
-                      7.     Princípios da educação<br>
+                     |{14}Anatomia e Fisiologia
+                     |{15}Princípios de Nutrição
+                     |{16}Doenças comuns e sua prevenção 
+                     |{17}Organização de: Expos Saúde, Expos Saúde Criança, Clubes de Saúde,  e    programas NEWSTART
+                     |{18}Saúde mental com enfâse na depressão
+                     |{19}Espiritualidade e saúde, do ponto de vista bíblico
+                     |{20}Princípios da educação
  
-                      Duração do curso: 10 meses<br>
+                     |{21}Duração do curso: 
 
-                      Data do próximo curso:  Agosto de 2017 a Maio de 2018<br>
+                     |{22}10 meses
 
-                       Local:  Espinhal - Penela - Centro de Vida Saudável VitaSalus<br>
+                     |{23}Data do próximo curso:
+                     |{24}  Agosto de 2017 a Maio de 2018
 
-                       Para mais informações:   www.HPS.org',
+                      |{25}Local: 
+                      |{26}  Espinhal - Penela - Centro de Vida Saudável VitaSalus
+                       |{27}Para mais informações:',
           'healthexpo' => ''
           ]
         ,

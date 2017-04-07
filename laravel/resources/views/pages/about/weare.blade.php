@@ -3,19 +3,30 @@
 @stop
 
 @section('content')
-<h2>{!! trans('header.main.submenu.about.1') !!}</h2>
-<p>	
-@choice('header.main.text.about1',1)
-</p>
-<p>
-@choice('header.main.text.about1',2) 
-</p>
-<p>
-@choice('header.main.text.about1',3)
-</p>
-<p>	
-@choice('header.main.text.about1',4)
-</p>
+<div class="container-fluid">
+<h3 class="text-sm-left section-34">{!! trans('header.main.submenu.about.1') !!}</h3>
+<div class="col-md-12 section-20">
+	<p class="text-justify">	
+	@choice('header.main.text.about1',1)
+	</p>
+</div>
+<div class="col-md-12 section-20">
+	<p class="text-justify">
+	@choice('header.main.text.about1',2) 
+	</p>
+</div>
+<div class="col-md-12 section-20">
+	<p class="text-justify">	
+	@choice('header.main.text.about1',4)
+	</p>
+	
+</div>
+<div class="col-md-12 section-20">
+	<p class="text-justify">
+	@choice('header.main.text.about1',3)
+	</p>
+</div>
+</div>
 @stop
 
 @section('js')
