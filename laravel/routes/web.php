@@ -10,13 +10,13 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::group(
+/*Route::group(
 	[
 		'prefix' => LaravelLocalization::setLocale(),
 		'middleware' => [ 'localeSessionRedirect', 'localizationRedirect' ,'localize']
 	],
 	function()
-	{
+	{*/
 		/** ADD ALL LOCALIZED ROUTES INSIDE THIS GROUP **/
 		Route::get('/', function () {
 	    return view('welcome')->with('swiper', 'swiper.index');
@@ -33,6 +33,10 @@ Route::group(
 	Route::get(LaravelLocalization::transRoute('route.services'), function () {
 	    return view('pages.services')->with('swiper', 'swiper.services');
 	})->name('services');
+
+	Route::get(LaravelLocalization::transRoute('route.vitalsalus'), function () {
+	    return view('pages.vitalsalus')->with('swiper', 'swiper.vitalsalus');
+	})->name('vitalsalus');
 
 	Route::get(LaravelLocalization::transRoute('route.galery'), function () {
 	    return view('pages.galery')->with('swiper', 'swiper.galery');
@@ -91,5 +95,9 @@ Route::group(
 	Route::get(LaravelLocalization::transRoute('route.healthexpo'), function () {
 	    return view('pages.services.healthexpo')->with('swiper', 'swiper.services');
 	})->name('services.healthexpo');
-	});
+
+	Route::get(LaravelLocalization::transRoute('route.culinaria'), function () {
+	    return view('pages.services.culinaria')->with('swiper', 'swiper.services');
+	})->name('services.culinaria');
+	/*});*/
 

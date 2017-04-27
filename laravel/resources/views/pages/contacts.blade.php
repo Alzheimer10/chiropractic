@@ -72,20 +72,24 @@
                               <div class="icon icon-xxs text-middle mdi mdi-map-marker text-primary"></div>
                             </div>
                             <div class="unit-body">
-                              <p class="text-gray-dark">Serra de Santa Maria, 3230-055<br>Espinhal PORTUGAL</p>
+                              <p class="text-gray-dark">Serra de Santa Maria,<br> 3230-055 Espinhal<br> PORTUGAL</p>
                             </div>
-                            <div class="unit-left">
-                              <div class="icon icon-xxs text-middle mdi mdi-map-marker text-primary"></div>
-                            </div>
-                              <div class="unit-body">
-                              <p class="text-gray-dark">Av. Fontes Pereira de Melo, nº31 - 5ºA, 1050-117 <br>Lisboa PORTUGAL</p>
-                              </div>
+                          </div>
+                          <div class="unit unit-horizontal unit-spacing-xxs p">
                               <div class="unit-left">
-                              <div class="icon icon-xxs text-middle mdi mdi-map-marker text-primary"></div>
-                            </div>
-                            <div class="unit-body">
-                              <p class="text-gray-dark">Quinta da Casinha, Lt. 2, Loja A 2 RCA3100-545<br>Pombal PORTUGAL</p>
-                            </div>    
+                                <div class="icon icon-xxs text-middle mdi mdi-map-marker text-primary"></div>
+                              </div>
+                              <div class="unit-body">
+                                <p class="text-gray-dark">Av. Fontes Pereira de Melo,<br> nº31 - 5ºA, <br>1050-117 Lisboa <br>  PORTUGAL</p>
+                              </div>    
+                          </div>
+                          <div class="unit unit-horizontal unit-spacing-xxs p">
+                              <div class="unit-left">
+                                <div class="icon icon-xxs text-middle mdi mdi-map-marker text-primary"></div>
+                              </div>
+                              <div class="unit-body">
+                                <p class="text-gray-dark">Quinta da Casinha,<br> Lt. 2, Loja A 2 RCA <br>3100-545 Pombal<br> PORTUGAL</p>
+                              </div>    
                           </div>
                         </div>
                       </div>
@@ -99,7 +103,7 @@
                               <div class="icon icon-xxs text-middle mdi mdi-phone text-primary"></div>
                             </div>
                             <div class="unit-body">
-                            <div  class="text-dark reveal-block">Penelas +351 239 098747</div>
+                            <div  class="text-dark reveal-block">Penela +351 239 098747</div>
                             <div class="text-dark reveal-block"> Lisboa +351 218 454230</div>
                             <div  class="text-dark reveal-block">Pombal  +351 236 027660</div>
                             </div>
@@ -114,7 +118,7 @@
                             <div class="unit-left">
                               <div class="icon icon-xxs text-middle mdi mdi-email-outline text-primary"></div>
                             </div>
-                            <div class="unit-body"><a href="mailto:#" class="text-dark">info@medicinapreventiva.pt </a></div>
+                            <div class="unit-body"><a href="mailto:info@medicinapreventiva.pt" class="text-dark">info@medicinapreventiva.pt </a></div>
                           </div>
                         </div>
                       </div>

@@ -26,10 +26,10 @@
 
                 <div class="rd-navbar-brand veil reveal-md-inline-block"><a href="{{ route('index')}}"><img width='370' height='70' class='img-responsive' src="{{asset('images/logo-dark.jpeg')}}" alt=''/></a>
                 </div>
-                  <address class="text-rigth">
+                <address class="text-rigth section-20" style="padding-left:20px">
                     <div class="p unit unit-spacing-xs unit-horizontal">
                       <div class="unit-left">
-                      <a target="_blank" href="https://www.facebook.com/medicinapreventiva.pt/?fref=ts" class="icon fa fa-facebook icon-xs icon-circle icon-gray-light-2">
+                      <a target="_blank" href="https://www.facebook.com/medicinapreventiva.pt/?fref=ts" class="icon fa fa-facebook icon-xs icon-rounded icon-gray-light-2">
                         
                       </a>
                       </div>
@@ -37,7 +37,7 @@
                           @include('complements/idiomaSelect')                 
                       </div>
                     </div>
-                  </address>
+                </address>
               </div>
               <style type="text/css">
                 .rd-navbar-minimal.rd-navbar-fixed .rd-navbar-top-panel{
@@ -103,12 +103,16 @@
                           </li>
                           <li><a href="{{ route('services.formation')}}"><span class="text-middle">{!! trans('header.main.submenu.services.8') !!}</span></a>
                           </li>
-                          <li><a href="{{ route('services.healthexpo')}}"><span class="text-middle">{!! trans('header.main.submenu.services.9') !!}</span></a>
+                          <!-- <li><a href="{{ route('services.healthexpo')}}"><span class="text-middle">{!! trans('header.main.submenu.services.9') !!}</span><br><span class="text-middle">{!! trans('header.main.submenu.services.10') !!}</span></a>
+                          </li> -->
+                          <li><a href="{{ route('services.culinaria')}}"><span class="text-middle">{!! trans('header.main.submenu.services.11') !!}</span></a>
                           </li>
                         </ul>
                       </li>
                       <li><a href="{{@route('galery')}}" ><span>{!! trans('header.main.menu.galery') !!}</span></a>
                       </li>
+                      <!-- <li><a href="{{@route('vitalsalus')}}" ><span>{!! trans('header.main.menu.vitalsalus') !!}</span></a>
+                      </li> -->
                       <li><a href="{{@route('contacts')}}" ><span>{!! trans('header.main.menu.contacts') !!}</span></a>
                       </li>
                     </ul>
@@ -128,6 +132,8 @@
             </div>
           </nav>
         </div>
-        <!--Swiper-->
-        @includeIf($swiper)
+
+    @if(Route::currentRouteName() == "index")
+     @includeIf($swiper)
+    @endif 
       </header>

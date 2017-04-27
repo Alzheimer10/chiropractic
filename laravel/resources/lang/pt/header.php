@@ -21,30 +21,31 @@ return [
             'services' => 'O QUE FAZEMOS',
             'galery' => 'Galeria',
             'contacts' => 'Contatos',
+            'vitalsalus' => 'VitaSalus'
 
         ],
         'welcome' => ['mainservices' => 'PRINCIPAIS SERVIÇOS',
                       'text' => 'Nós fornecemos serviços de quiropraxia de alta qualidade para toda a família.', 
-                      'staff' => 'nossa equipe',
+                      'staff' => 'nossa equipa',
                       'testimonials'=>'TESTEMUNHOS',
                       'parallax' => ['1' => 'O bem-estar espera por você','2' => 'Experimente o nível mais alto de bem-estar e serviços de saúde no Chiropractic!','3'=>'Nossos especialistas sabem como melhorar sua saúde','4' => 'consulta gratuita'],
                       ]
         ,
-        'contacts' => ['title' => 'ENTRAR EM CONTATO',
+        'contacts' => ['title' => 'CONTACTOS',
                         'message' => '{1}
                         Você pode entrar em contato conosco de qualquer maneira que seja conveniente para você. Estamos disponíveis 24/7 via fax ou e-mail. Você também pode usar um formulário de contato rápido abaixo ou visite-nos pessoalmente.
 
                            |{2}Teremos todo o gosto em responder às suas perguntas.',
                           'form' =>['1' => 'nome','2'=>'sobrenome','3' =>'o email','4'=>'telefone','5'=>'mensagem','6'=>'enviar mensagem'],
-                        'labels' => ['1' => 'SOCIAIS','2' => 'Morada','3' => 'horário','4' =>'TELEFONES','5' => 'O EMAIL']
+                        'labels' => ['1' => 'SOCIAIS','2' => 'Morada','3' => 'horário','4' =>'TELEFONES','5' => 'E-MAIL']
 
                         ],
 
         'lang' => 'Selecionar idioma',
         'submenu'=> 
         [
-            'about' => ['1'=>'QUEM SOMOS','2'=>'A NOSSA HISTÓRIA','3'=>'GOVERNAÇÃO'],
-            'services' => ['1' => 'Consultas médicas','2' => 'Consultas de psicologia','3' => 'Medicina dentária','4' => 'NEWSTART®','5' => 'Recuperação da Depressão e Ansiedade','6' => 'Internamento','7' => 'Estadias saudáveis','8'=>'Programas de formação','9' => 'EXPO SAÚDE e EXPO SAÚDE Criança'],
+            'about' => ['1'=>'QUEM SOMOS','2'=>'A NOSSA HISTÓRIA','3'=>'ORGANIZAÇÃO'],
+            'services' => ['1' => 'Consultas médicas','2' => 'Consultas de psicologia','3' => 'Medicina dentária','4' => 'NEWSTART<sup>&reg;</sup>','5' => 'Recuperação da Depressão e Ansiedade','6' => 'Internamento','7' => 'Estadias saudáveis','8'=>'Programas de formação','9' => 'Expo Saúde<sup>&reg;</sup>','10' => 'Expo saúde criança','11'=>'Culinária '],
         ],
           'text' =>['about1' =>'{1}A Associação Portuguesa de Medicina Preventiva (APMP) é uma organização sem fins lucrativos, fundada em 2003, por um grupo de profissionais com o objectivo de melhorar a saúde de indivíduos e comunidades através da promoção de hábitos de vida saudável.
    
@@ -63,7 +64,7 @@ return [
 
           |{3}Expansão para Penela -  2008 / presente
 
-          |{4}Desde cedo surgiu a necessidade de um novo espaço em que se ajudasse os doentes a porem em prática os princípios promovidos nas consultas médicas e de psicologia. Foi então que se deu a expansão para a Vila de Espinhal, em Penela com a criação do Centro de Vida Saudável VitaSalus®. 
+          |{4}Desde cedo surgiu a necessidade de um novo espaço em que se ajudasse os doentes a porem em prática os princípios promovidos nas consultas médicas e de psicologia. Foi então que se deu a expansão para a Vila de Espinhal, em Penela com a criação do Centro de Vida Saudável VitaSalus<sup>&reg;</>. 
 
           |{5}As obras de restauração e adaptação da antiga propriedade conhecida como “Obras do Dr Bacalhau” localizada na Serra de Santa Maria, no Concelho de Penela,  tiveram início em 2008. Nelas, já participaram com o seu trabalho ou monetariamente centenas de voluntários e hoje, mais de 20 pessoas ali vivem e trabalham para o servir
           ',
@@ -89,26 +90,25 @@ return [
 
            |{2}Temos um serviço de consultas de clínica geral com enfâse em hábitos que promovem uma vida saudável e sua influência na prevenção e no tratamento de doenças tais como:
             
-           |{3}doenças cardiovasculares e hipertensão
+           |{3}doença isquémica cardíaca e hipertensão
            |{4}excesso de peso e obesidade
            |{5}diabetes
-           |{6} colesterol e/ou triglicéridos elevados
+           |{6}colesterol e/ou triglicéridos elevados
            |{7}cancro
-           |{8} doenças ósseas e musculares
+           |{8}doenças articulares e musculares
            |{9} ansiedade crónica
            |{10}depressão
-           |{11} insónia
-           |{12} tabagismo e alcoolismo
-           |{13} doenças respiratórias (bronquite, asma, sinusite e rinite alérgica)
-           |{14} doenças da pele (psoríase, eczemas, alergias e dermatites)
-           |{15} doenças auto-imunes tais como lupus, artrite reumatóide, esclerose múltipla.
-           |{16} problemas digestivos (gastrite, refluxo gastro-esofágico, obstipação e indigestão)
-           |{17} doenças da tireóide (hipo e hipertireoidismo)
-           |{18} doenças da mulher (cólicas menstruais, ovários policísticos e sintomas da menopausa)
+           |{11}tabagismo e alcoolismo
+           |{12}doenças respiratórias (asma, síndromes de alergia)
+           |{13}doenças da pele (psoríase, eczemas, alergias e dermatites)
+           |{14}doenças auto-imunes tais como lupus, artrite reumatóide e esclerose múltipla
+           |{15}problemas digestivos (gastrite, refluxo gastro-esofágico, obstipação)
+           |{16}doenças da tireóide (hipo e hipertireoidismo)
+           |{17}doenças da mulher (cólicas menstruais, ovários policísticos e sintomas da menopausa)
  
-          |{19}Locais de consulta:
+          |{19}Locais de consulta
  
-          |{20}Espinhal – Penela  Centro de Vida Saudável VitaSalus  
+          |{20}Espinhal – Penela  Centro de Vida Saudável VitaSalus<sup>&reg;</sup>  
           |{21}Pombal – Clínica Médica Dentária VitaSalus
           |{22}Lisboa – Consultório Médico na Picoas Medical
           ',
@@ -127,9 +127,9 @@ A doença mental é cada vez mais frequente em Portugal e a depressão é uma da
             |{10}Problemas de auto estima
 
 
-            |{11}Locais de consulta:
+            |{11}Locais de consulta
  
-            |{12}Espinhal – Penela  Centro de Vida Saudável VitaSalus 
+            |{12}Espinhal – Penela  Centro de Vida Saudável VitaSalus<sup>&reg;</sup> 
             |{13}Lisboa – Consultório Médico na Picoas Medical ',
 
           'dental' => '{1}30 anos a criar sorrisos! 
@@ -138,14 +138,14 @@ A doença mental é cada vez mais frequente em Portugal e a depressão é uma da
 
               |{3}Uma alimentação saudável promove uma boa saúde oral.  A equipa da Clínica Médica-Dentária VitaSalus ajudá-lo(a)-á a abraçar hábitos de vida mais saudáveis.
 
-              |{4}Local de consultas: 
+              |{4}Local de consultas 
 
-              |{5}Pombal – Clínica Médica Dentária VitaSalus
+              |{5}Pombal – Clínica Médica Dentária
 ',
-          'newStart' => '{1}Programa NEWSTART®
+          'newStart' => '{1}Programa NEWSTART<sup>&reg;</sup>
              |{32}O que fazemos influencia o que somos! Soa-lhe a algo familiar? Muitas doenças têm a sua origem em hábitos de vida tais como uma alimentação incorreta, o sedentarismo e a presença frequente de sentimentos de ansiedade.
 
-            |{2}O programa NEWSTART© tem a duração de 8 ou 10 dias e foi elaborado por profissionais de saúde com o objetivo de proporcionar aos participantes, sob orientação clínica, uma excelente oportunidade para renovarem a sua saúde, através da adopção de 8 princípios de vida importantes tais como uma boa alimentação, atividade física adequada, água, luz solar, descanso, entre outros.
+            |{2}O programa NEWSTART<sup>&reg;</sup> tem a duração de 8 ou 10 dias e foi elaborado por profissionais de saúde com o objetivo de proporcionar aos participantes, sob orientação clínica, uma excelente oportunidade para renovarem a sua saúde, através da adopção de 8 princípios de vida importantes tais como uma boa alimentação, atividade física adequada, água, luz solar, descanso, entre outros.
   
               |{3}Hábitos de vida saudável são de especial importância na prevenção e tratamento de doenças tais como:
           
@@ -199,10 +199,10 @@ A doença mental é cada vez mais frequente em Portugal e a depressão é uma da
 
             |{28}Aconselhamento espiritual se desejado
 
-            |{29}Esperamos por si no programa NEWSTART©
+            |{29}Esperamos por si no programa NEWSTART<sup>&reg;</sup>
 
-           |{30}Local:  
-           |{31}O Centro de Vida Saudável VitaSalus®, em ambiente serrano, calmo e natural no Espinhal/Penela proporciona o espaço ideal para a realização de todas as atividades deste programa.',
+           |{30}Local  
+           |{31}O Centro de Vida Saudável VitaSalus<sup>&reg;</sup>, em ambiente serrano, calmo e natural no Espinhal/Penela proporciona o espaço ideal para a realização de todas as atividades deste programa.',
 
 
 
@@ -236,13 +236,13 @@ A doença mental é cada vez mais frequente em Portugal e a depressão é uma da
 
           |{14}Aconselhamento espiritual se desejado
 
-          |{15}Local: 
-          |{16}A localização do Centro de Vida Saudável VitaSalus®, em ambiente serrano, calmo e natural, no Espinhal, Penela, proporciona o espaço ideal 
+          |{15}Local 
+          |{16}A localização do Centro de Vida Saudável VitaSalus<sup>&reg;</sup>, em ambiente serrano, calmo e natural, no Espinhal, Penela, proporciona o espaço ideal 
           para a realização de todas as atividades deste programa.
 ',
           'internment' => '{1}Programa Personalizado de Internamento
 
-                         |{13}Concebido como uma alternativa aos programas de grupo  NEWSTART© e Ajuda na Recuperação da Depressão e Ansiedade, o Programa Personalizado de Internamento contribuirá para que desfrute de melhor saúde física, mental e espiritual. Adaptado a cada situação clínica, os programas têm uma duração variável. Nele têm participado pessoas com variados problemas de saúde, sendo os mais frequentes, doentes oncológicos os quais pretendem melhorar os seus hábitos de vida e assim, melhorar a qualidade de vida e reduzir o risco de recidivas. 
+                         |{13}Concebido como uma alternativa aos programas de grupo  NEWSTART<sup>&reg;</sup> e Ajuda na Recuperação da Depressão e Ansiedade, o <b>Programa Personalizado de Internamento</b> contribuirá para que desfrute de melhor saúde física, mental e espiritual. Adaptado a cada situação clínica, os programas têm uma duração variável. Nele têm participado pessoas com variados problemas de saúde, sendo os mais frequentes, doentes oncológicos os quais pretendem melhorar os seus hábitos de vida e assim, melhorar a qualidade de vida e reduzir o risco de recidivas. 
 
                           |{2}Inclui:
 
@@ -276,14 +276,14 @@ A doença mental é cada vez mais frequente em Portugal e a depressão é uma da
  
                  |{3}Curso de Culinária Vegetariana
 
-                 |{4}¿O que são proteínas?<br>¿Será que consigo desfrutar de uma boa saúde se for vegetariano?<br> ¿E as crianças? <br>¿Como posso cozinhar com tofu?<br> ¿Será que a feijoada é um bom alimento?<br> ¿Como posso preparar uma sobremesa mais saudável? <br>¿Que combinações de alimentos promovem o bem-estar?
+                 |{4}O que são proteínas?<br>Será que consigo desfrutar de uma boa saúde se for vegetariano?<br> E as crianças? <br>Como posso cozinhar com tofu?<br> Será que a feijoada é um bom alimento?<br> Como posso preparar uma sobremesa mais saudável? <br>Que combinações de alimentos promovem o bem-estar?
 
                  |{5}Estas e muitas outras perguntas são respondidas no Curso de Introdução à Nutrição e à Culinária Vegetariana. Médicos e profissionais de cozinha ensinar-lhe-ão a preparar pratos deliciosos e saudáveis. Venha aprender mais!
 
                 |{6}Duração do curso:
                 |{7} 12 horas (2 a 2,5 horas por sessão) em horário pós-laboral ou em dois Domingos consecutivos.
 
-               |{8}Locais: 
+               |{8}Locais 
                |{9}Espinhal – Penela  Centro de Vida Saudável VitaSalus 
                |{10}Lisboa – Consultório Médico na Picoas Medical 
 
@@ -296,7 +296,7 @@ A doença mental é cada vez mais frequente em Portugal e a depressão é uma da
                      |{14}Anatomia e Fisiologia
                      |{15}Princípios de Nutrição
                      |{16}Doenças comuns e sua prevenção 
-                     |{17}Organização de: Expos Saúde, Expos Saúde Criança, Clubes de Saúde,  e    programas NEWSTART
+                     |{17}Organização de: Expos Saúde, Expos Saúde Criança, Clubes de Saúde,  e    programas NEWSTART<sup>&reg;</sup>
                      |{18}Saúde mental com enfâse na depressão
                      |{19}Espiritualidade e saúde, do ponto de vista bíblico
                      |{20}Princípios da educação
@@ -308,8 +308,8 @@ A doença mental é cada vez mais frequente em Portugal e a depressão é uma da
                      |{23}Data do próximo curso:
                      |{24}  Agosto de 2017 a Maio de 2018
 
-                      |{25}Local: 
-                      |{26}  Espinhal - Penela - Centro de Vida Saudável VitaSalus
+                      |{25}Local 
+                      |{26}  Espinhal - Penela - Centro de Vida Saudável VitaSalus<sup>&reg;</sup>
                        |{27}Para mais informações:',
           'healthexpo' => ''
           ]

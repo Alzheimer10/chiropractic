@@ -12,7 +12,7 @@
                 </div>
               </div>
               <div class="cell-sm-6 cell-md-4 offset-top-50 offset-sm-top-0">
-                <div class="service"><img src="images/pages/home-02-320x320.jpg" width="320" height="320" alt="" class="img-responsive"/><a href="{{ route('services.newStart')}}" class="service-desc h6">{!! trans('header.main.submenu.services.4') !!}<!-- Massage Therapy --></a>
+                <div class="service"><img src="images/pages/home-02-320x3200.jpg" width="320" height="320" alt="" class="img-responsive"/><a href="{{ route('services.newStart')}}" class="service-desc h6">{!! trans('header.main.submenu.services.4') !!}<!-- Massage Therapy --></a>
                 </div>
               </div>
               <div class="cell-sm-6 cell-md-4 offset-top-50 offset-md-top-0">
@@ -22,6 +22,7 @@
               <div class="cell-sm-6 cell-md-4 offset-top-50">
                 <div class="service"><img src="images/pages/home-04-320x320.jpg" width="320" height="320" alt="" class="img-responsive"/><a href="{{ route('services.internment')}}" class="service-desc h6">{!! trans('header.main.submenu.services.6')!!}<!-- Nutrition Counseling --></a>
                 </div>
+
               </div>
               <div class="cell-sm-6 cell-md-4 offset-top-50">
                 <div class="service"><img src="images/pages/home-05-320x320.jpg" width="320" height="320" alt="" class="img-responsive"/><a href="{{ route('services.healthy')}}" class="service-desc h6">{!! trans('header.main.submenu.services.7') !!}<!-- Corrective Exercises --></a>
@@ -45,15 +46,14 @@
                   <blockquote class="quote quote-classic">
                     <div class="quote-body">
                       <p class="h4 text-italic text-gray-dark">
-                        <q>The costs of treatments are very reasonable at Chiropractic and I have always been impressed with the results. The fully qualified team at the clinic are professional and friendly.</q>
+                        <q>O Centro  VitaSalus® é o local ideal para devolver a vida e a esperança a quem já nada espera desta vida, a quem pensa já ter perdido tudo ou a quem está a pensar em desistir. Tratam o corpo, a mente e o espírito!”</q>
                       </p>
                       <div class="quote-meta unit unit-horizontal unit-spacing-sm unit-middle">
-                        <div class="unit-left unit-item-narrow"><img width="60" height="60" src="images/users/user-betty-wade-60x60.jpg" alt="" class="img-circle quote-img"/></div>
+                        <div class="unit-left unit-item-narrow"><img width="60" height="60" src="images/pages/testimonios/testimonio1.jpg" alt="" class="img-circle quote-img"/></div>
                         <div class="unit-body unit-item-wide">
                           <h5 class="quote-author text-capitalize text-bold">
-                            <cite class="text-normal">Betty Wade</cite>
+                            <cite class="text-normal">Familiar de participante no programa Ajuda na Recuperação da Depressão e Ansiedade.</cite>
                           </h5>
-                          <p class="quote-desc text-capitalize text-gray text-italic">Patient</p>
                         </div>
                       </div>
                     </div>
@@ -63,15 +63,34 @@
                   <blockquote class="quote quote-classic">
                     <div class="quote-body">
                       <p class="h4 text-italic text-gray-dark">
-                        <q>Dr. Snyder is a wonderful Doctor, who makes you feel important and who takes time to listen, which most doctors don’t do. Loved him from the first visit! Very professional assistance.</q>
+                        <q>A experiência no Centro VitaSalus® foi extraordinária. Contribuiu para uma renovação dos meus hábitos de vida – alimentação, exercício físico, entre outros. Sinto-me mais feliz, menos ansioso, com mais esperança na vida.
+                        </q>
                       </p>
                       <div class="quote-meta unit unit-horizontal unit-spacing-sm unit-middle">
-                        <div class="unit-left unit-item-narrow"><img width="60" height="60" src="images/users/user-bryan-green-60x60.jpg" alt="" class="img-circle quote-img"/></div>
+                        <div class="unit-left unit-item-narrow"><img width="60" height="60" src="images/pages/testimonios/testimonio2.jpg" alt="" class="img-circle quote-img"/></div>
+                        <div class="unit-body unit-item-wide">
+                          <h5 class="quote-author text-capitalize text-bold">
+                            <cite class="text-normal">Tiago, 28 anos, programa NEWSTART<sup>&reg;</sup></cite>
+                          </h5>
+                          <!-- <p class="quote-desc text-capitalize text-gray text-italic">Paciente</p> -->
+                        </div>
+                      </div>
+                    </div>
+                  </blockquote>
+                </div>
+                <!-- <div class="owl-item">
+                  <blockquote class="quote quote-classic">
+                    <div class="quote-body">
+                      <p class="h4 text-italic text-gray-dark">
+                        <q>É indescritível a sensação de estar neste local e conviver com aqueles que aqui trabalham para nos ensinar a viver um estilo de vida saudável. Anseio por poder desfrutar dos vossos maravilhosos programas.</q>
+                      </p>
+                      <div class="quote-meta unit unit-horizontal unit-spacing-sm unit-middle">
+                        <div class="unit-left unit-item-narrow"><img width="60" height="60" src="images/pages/blankphoto.jpg" alt="" class="img-circle quote-img"/></div>
                         <div class="unit-body unit-item-wide">
                           <h5 class="quote-author text-capitalize text-bold">
                             <cite class="text-normal">Bryan Green</cite>
                           </h5>
-                          <p class="quote-desc text-capitalize text-gray text-italic">Patient</p>
+                          <p class="quote-desc text-capitalize text-gray text-italic">José Luís Dine Falcão Sincer E Sepúlveda</p>
                         </div>
                       </div>
                     </div>
@@ -81,38 +100,20 @@
                   <blockquote class="quote quote-classic">
                     <div class="quote-body">
                       <p class="h4 text-italic text-gray-dark">
-                        <q>Dr. Snyder is a wonderful Doctor, who makes you feel important and who takes time to listen, which most doctors don’t do. Loved him from the first visit! Very professional assistance.</q>
+                        <q>Lo que más me ha gustado de la Clinica en Penela es la sonrisa de la gente cuando uno llega y las palabras de bienvenida. Si vas con una patología, el camino a la cura ya está medio ganado. Despues está esa sensació de paz que proporciona la naturaleza que rodea el lugar. El levantarte por la mañana para participar del programa del día ( incluido el jardinaje:) te sienta muy bien, y cuando llega la hora de volver a casa, salimos con la seguridad de Isaias 46:3-4 entre otros.</q>
                       </p>
                       <div class="quote-meta unit unit-horizontal unit-spacing-sm unit-middle">
-                        <div class="unit-left unit-item-narrow"><img width="60" height="60" src="images/users/user-bryan-green-60x60.jpg" alt="" class="img-circle quote-img"/></div>
+                        <div class="unit-left unit-item-narrow"><img width="60" height="60" src="images/pages/blankphoto.jpg" alt="" class="img-circle quote-img"/></div>
                         <div class="unit-body unit-item-wide">
                           <h5 class="quote-author text-capitalize text-bold">
-                            <cite class="text-normal">Bryan Green</cite>
+                            <cite class="text-normal">Neria Bento</cite>
                           </h5>
-                          <p class="quote-desc text-capitalize text-gray text-italic">Patient</p>
+                          <p class="quote-desc text-capitalize text-gray text-italic">Paciente</p>
                         </div>
                       </div>
                     </div>
                   </blockquote>
-                </div>
-                <div class="owl-item">
-                  <blockquote class="quote quote-classic">
-                    <div class="quote-body">
-                      <p class="h4 text-italic text-gray-dark">
-                        <q>The costs of treatments are very reasonable at Chiropractic and I have always been impressed with the results. The fully qualified team at the clinic are professional and friendly.</q>
-                      </p>
-                      <div class="quote-meta unit unit-horizontal unit-spacing-sm unit-middle">
-                        <div class="unit-left unit-item-narrow"><img width="60" height="60" src="images/users/user-betty-wade-60x60.jpg" alt="" class="img-circle quote-img"/></div>
-                        <div class="unit-body unit-item-wide">
-                          <h5 class="quote-author text-capitalize text-bold">
-                            <cite class="text-normal">Betty Wade</cite>
-                          </h5>
-                          <p class="quote-desc text-capitalize text-gray text-italic">Patient</p>
-                        </div>
-                      </div>
-                    </div>
-                  </blockquote>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -123,44 +124,42 @@
             <hr class="divider divider-lg bg-primary">
           <div class="reveal-md-flex range-xs-center">
             <!-- Thumbnail Josip-->
-            <figure class="thumbnail-josip thumbnail-big odd"><a href="team-member.html"><img width="384" height="410" src="images/pages/ourteam/ourteam-01.jpg" alt=""/></a>
+            <figure height="200" class="thumbnail-josip thumbnail-big odd"><a ><img width="384" height="410" src="images/pages/ourteam/ourteam-01.jpg" alt=""/></a>
               <div class="thumbnail-desc">
-                <h5 class="thumbnail-josip-title text-bold text-white">Scott Riley</h5>
-                <p class="veil reveal-md-block text-italic text-white offset-top-0">Chief Medical Officer</p>
+                <h5 class="thumbnail-josip-title text-bold text-white">Viriato Ferreira</h5>
+                <p class="veil reveal-md-block text-italic text-white offset-top-0">Medico<br>Presidente da direcção</p>
               </div>
-              <figcaption><a href="team-member.html" class="btn btn-block btn-rect text-md-left btn-java">view full profile</a></figcaption>
+              <figcaption><a  class="btn btn-block btn-rect text-md-left btn-java">ler mais</a></figcaption>
             </figure>
             <!-- Thumbnail Josip-->
-            <figure class="thumbnail-josip thumbnail-big offset-top-41 offset-md-top-0"><a href="team-member.html"><img width="384" height="410" src="images/pages/ourteam/ourteam-02.jpg" alt=""/></a>
+            <figure class="thumbnail-josip thumbnail-big offset-top-41 offset-md-top-0"><a><img width="384" height="410" src="images/pages/ourteam/ourteam-12.jpg" alt=""/></a>
               <div class="thumbnail-desc">
-                <h5 class="thumbnail-josip-title text-bold text-white">Johnny Fowler</h5>
-                <p class="veil reveal-md-block text-italic text-white offset-top-0">Chiropractor</p>
+                <h5 class="thumbnail-josip-title text-bold text-white">J. Marianne Ferreira</h5>
+                <p class="veil reveal-md-block text-italic text-white offset-top-0">Medica <br> Directora Clinica</p>
               </div>
-              <figcaption><a href="team-member.html" class="btn btn-block btn-rect text-md-left btn-java">view full profile</a></figcaption>
+              <figcaption><a class="btn btn-block btn-rect text-md-left btn-java">ler mais</a></figcaption>
             </figure>
             <!-- Thumbnail Josip-->
-            <figure class="thumbnail-josip thumbnail-big offset-top-41 offset-md-top-0 odd"><a href="team-member.html"><img width="384" height="410" src="images/pages/ourteam/ourteam-03.jpg" alt=""/></a>
+            <figure class="thumbnail-josip thumbnail-big offset-top-41 offset-md-top-0 odd"><a ><img width="384" height="410" src="images/pages/ourteam/ourteam-07.jpg" alt=""/></a>
               <div class="thumbnail-desc">
-                <h5 class="thumbnail-josip-title text-bold text-white">Eric Snyder</h5>
-                <p class="veil reveal-md-block text-italic text-white offset-top-0">Clinical Chiropractic Assistant</p>
+                <h5 class="thumbnail-josip-title text-bold text-white">Raquel E. Cioc</h5>
+                <p class="veil reveal-md-block text-italic text-white offset-top-0">Enfermeira<br>Directora de Capelania</p>
               </div>
-              <figcaption><a href="team-member.html" class="btn btn-block btn-rect text-md-left btn-java">view full profile</a></figcaption>
+              <figcaption><a  class="btn btn-block btn-rect text-md-left btn-java">ler mais</a></figcaption>
             </figure>
-            <!-- Thumbnail Josip-->
-            <figure class="thumbnail-josip thumbnail-big offset-top-41 offset-md-top-0"><a href="team-member.html"><img width="384" height="410" src="images/pages/ourteam/ourteam-04.jpg" alt=""/></a>
+            <figure class="thumbnail-josip thumbnail-big offset-top-41 offset-md-top-0 odd"><a><img width="384" height="410" src="images/pages/ourteam/ourteam-13.jpg" alt=""/></a>
               <div class="thumbnail-desc">
-                <h5 class="thumbnail-josip-title text-bold text-white">Martha Schmidt</h5>
-                <p class="veil reveal-md-block text-italic text-white offset-top-0">Licensed Massage Therapist</p>
+                <h5 class="thumbnail-josip-title text-bold text-white">Adela Rotaru</h5>
+                <p class="veil reveal-md-block text-italic text-white offset-top-0"><br>Coordenadora de Programas</p>
               </div>
-              <figcaption><a href="team-member.html" class="btn btn-block btn-rect text-md-left btn-java">view full profile</a></figcaption>
+              <figcaption><a  class="btn btn-block btn-rect text-md-left btn-java">ler mais</a></figcaption>
             </figure>
-            <!-- Thumbnail Josip-->
-            <figure class="thumbnail-josip thumbnail-big offset-top-41 offset-md-top-0 odd"><a href="team-member.html"><img width="384" height="410" src="images/pages/ourteam/ourteam-05.jpg" alt=""/></a>
+            <figure class="thumbnail-josip thumbnail-big offset-top-41 offset-md-top-0 odd"><a ><img width="384" height="410" src="images/pages/ourteam/ourteam-14.jpg" alt=""/></a>
               <div class="thumbnail-desc">
-                <h5 class="thumbnail-josip-title text-bold text-white">Katherine Wong</h5>
-                <p class="veil reveal-md-block text-italic text-white offset-top-0">Front Desk Coordinator</p>
+                <h5 class="thumbnail-josip-title text-bold text-white">Eduardo Gouveia</h5>
+                <p class="veil reveal-md-block text-italic text-white offset-top-0">Odontologista<br>Coordenador de Programas</p>
               </div>
-              <figcaption><a href="team-member.html" class="btn btn-block btn-rect text-md-left btn-java">view full profile</a></figcaption>
+              <figcaption><a class="btn btn-block btn-rect text-md-left btn-java">ler mais</a></figcaption>
             </figure>
           </div>
         </section>

@@ -18,9 +18,10 @@ return [
         [
             'home' => 'Inicio',
             'about' => 'Quienes Somos',
-            'services' => 'Que Oferecemos',
+            'services' => 'Que Ofrecemos',
             'galery' => 'galeria',
             'contacts' => 'Contactanos',
+            'vitalsalus' => 'VitaSalus'
 
         ],
         'lang' => 'Seleccionar lenguaje',

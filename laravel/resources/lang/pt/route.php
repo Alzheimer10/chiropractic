@@ -16,6 +16,8 @@ return [
       "healthy" => "estadias-saudáveis",
       "formation" => "programas-de-formação",
       "healthexpo" => "expo-saude",
-      "galery" => "galeria"
+      "galery" => "galeria",
+      "vitalsalus" => "vitalsalus",
+      "culinaria" => "Culinária"
 	];
  ?>

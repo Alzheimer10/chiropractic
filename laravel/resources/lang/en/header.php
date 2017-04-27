@@ -19,8 +19,9 @@ return [
             'home' => 'Home',
             'about' => 'About',
             'services' => 'Services',
-            'galery' => 'Galery',
+            'galery' => 'Gallery',
             'contacts' => 'Contacts',
+            'vitalsalus' => 'VitaSalus'
 
         ],
         'lang' => 'Select language',

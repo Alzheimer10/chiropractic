@@ -16,6 +16,7 @@ return [
       "healthy" => "healthy",
       "formation" => "formation",
       "healthexpo" => "health-expo",
-      "galery" => "galery"
+      "galery" => "galery",
+      "vitalsalus" => "vitalsalus"
 	];
  ?>
